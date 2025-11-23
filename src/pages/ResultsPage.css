@@ -1,0 +1,45 @@
+/* src/pages/ResultsPage.css */
+
+.results-screen {
+    /* just adds a bit more spacing on this page */
+    padding-bottom: 3rem;
+  }
+  
+  .results-map-card {
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+    padding: 1.4rem 1.6rem 1.6rem;
+    border-radius: 1.5rem;
+    border: 1px solid rgba(148, 163, 184, 0.5);
+    background: rgba(15, 23, 42, 0.9);
+  }
+  
+  .results-map-header h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .results-map-header p {
+    margin-top: 0.3rem;
+    font-size: 0.85rem;
+    color: #9ca3af;
+  }
+  
+  .results-map-inner {
+    margin-top: 0.9rem;
+    border-radius: 1.2rem;
+    overflow: hidden;
+  }
+  
+  .results-map-container {
+    width: 100%;
+    height: 320px;
+  }
+  
+  .results-map-note {
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+    color: #9ca3af;
+  }
+  

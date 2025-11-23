@@ -1,0 +1,277 @@
+/* src/pages/LandingPage.css */
+
+.landing-page {
+    width: 100%;
+    min-height: 100vh;
+    background: #fdf9f3; /* warm off-white */
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* ---------- Top bar ---------- */
+  
+  .landing-topbar {
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #111111;
+  }
+  
+  .landing-topbar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .landing-logo-pill {
+    padding: 0.4rem 1.4rem;
+    border-radius: 999px;
+    border: 2px solid #000000;
+    background: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .landing-topbar-text {
+    flex: 1;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .landing-topbar-brand {
+    font-weight: 600;
+  }
+  
+  /* ---------- Hero ---------- */
+  
+  .landing-hero {
+    position: relative;
+    z-index: 1; /* sits below the search wrapper */
+    width: 100%;
+    height: 430px;
+    background-image: url("../assets/images/heroimage.png");
+    /* replace with your own image if you want */
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .landing-hero-overlay {
+    max-width: 1100px;
+    padding: 0 2rem;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  /* Big headline */
+  .landing-hero-title {
+    color: #fff;
+    font-family: "Mona Sans";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    position: relative;
+    line-height: 1.05;
+    margin: 0;
+  }
+
+  /* Big headline */
+  .landing-hero-title-left{
+    color: #fff;
+    font-family: "Mona Sans";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    line-height: 1.05;
+    margin: 0;
+    background-image: url("../assets/images/landingtitlecircle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow:visible;
+  }
+  
+  /* Centered pill button under the headline */
+  .landing-hero-pill {
+    margin-top: 2.25rem;
+    padding: 0.65rem 1.8rem;
+    border-radius: 999px;
+    border: 2px solid #000000;
+    background: #ffffff;
+    color: #111827;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 10px 0 rgba(0, 0, 0, 0.8);
+  }
+  
+  /* ---------- Search card ---------- */
+  
+  .landing-search-wrapper {
+    position: relative;
+    z-index: 5;            /* ABOVE the hero image */
+    margin-top: -60px;     /* pull card up over the image */
+    padding: 0 2.5rem 3rem;
+  }
+  
+  .landing-search-card {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 1.4rem 1.8rem;
+    border-radius: 40px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    box-shadow: 12px 12px 0 #000000;
+    display: flex;
+    align-items: stretch;
+    gap: 1.75rem;
+  }
+  
+  .landing-search-fields {
+    color: red;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .landing-field {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .landing-field-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 999px;
+    border: 1.5px solid #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    color: red;
+  }
+  
+  .landing-field-text {
+    display: flex;
+    flex-direction: column;
+    color: red;
+  }
+  
+  .landing-field-label {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: red;
+  }
+  
+  .landing-field-divider {
+    margin: 0.7rem 0 0.7rem 2.2rem;
+    border-top: 1px dashed #9ca3af;
+  }
+  
+  /* Right-side button inside the card */
+  .landing-search-button {
+    align-self: center;
+    padding: 0.9rem 1.9rem;
+    border-radius: 999px;
+    border: 2px solid #000000;
+    background: #f5f5f5;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  /* ---------- Upload pill ---------- */
+  
+  .landing-upload-pill {
+    margin: 1.9rem auto 0;
+    padding: 0.75rem 1.9rem;
+    border-radius: 999px;
+    border: 2px solid #000000;
+    background: #ffffff;
+    box-shadow: 10px 10px 0 #000000;
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  .landing-upload-strong {
+    font-weight: 600;
+  }
+  
+  /* ---------- Footer ---------- */
+  
+  .landing-footer {
+    margin-top: 3rem;
+    padding: 0 2.5rem 1.75rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #4b5563;
+  }
+  
+  /* ---------- Responsive tweaks ---------- */
+  
+  @media (max-width: 900px) {
+    .landing-hero-title {
+      font-size: 2.4rem;
+    }
+  
+    .landing-hero-title::before {
+      inset: 60% -10%;
+    }
+  
+    .landing-search-card {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .landing-search-button {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .landing-topbar-inner {
+      flex-direction: column;
+    }
+  
+    .landing-topbar-text {
+      text-align: left;
+    }
+  }
+  
+  /* Text inputs for origin / destination */
+.landing-input {
+    font-family: "Mona Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    background: transparent;
+    width: 100%;
+  }
+  
+  .landing-input::placeholder {
+    color: rgb(91, 91, 91);
+  }
+  
+  /* Error message under the search card */
+  .landing-error {
+    max-width: 980px;
+    margin: 0.8rem auto 0;
+    font-size: 0.8rem;
+    color: #b91c1c;
+  }
+  

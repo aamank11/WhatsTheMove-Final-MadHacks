@@ -1,0 +1,309 @@
+/* Root */
+.planner-page {
+    width: 100%;
+    min-height: 100vh;
+    background: #fdf9f3;
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* ---------- Hero ---------- */
+  
+  .planner-hero {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    background-image: url("../assets/images/planningpageimage.png");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .planner-hero-overlay {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+    color: #ffffff;
+  }
+  
+  .planner-hero-pill-small {
+    padding: 0.4rem 1.4rem;
+    border-radius: 999px;
+    border: 2px solid #000000;
+    background: #ffffff;
+    color: #111827;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.8);
+  }
+  
+  .planner-hero-title {
+    font-size: 2.2rem;
+    line-height: 1.25;
+    font-weight: 600;
+    max-width: 34rem;
+    margin: 0;
+  }
+  
+  .planner-hero-emphasis {
+    text-decoration: underline;
+  }
+  
+  /* ---------- Sections ---------- */
+  
+  .planner-section {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.2rem 2.5rem 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .planner-section-heading {
+    text-align: center;
+    font-size: 1.45rem;
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+  }
+  
+  /* ---------- Cards ---------- */
+  
+  .planner-card {
+    background: #ffffff;
+    border-radius: 32px;
+    border: 2px solid #000000;
+    box-shadow: 10px 10px 0 #000000;
+    padding: 1.6rem 2rem 1.9rem;
+    margin-bottom: 2.2rem;
+  
+    /* Make sure every card always spans the full section width */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .planner-card-header {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  
+  .planner-card-subtitle {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #4b5563;
+    margin-top: 0.1rem;
+    margin-bottom: 1.4rem;
+  }
+  
+  /* ---------- Location card ---------- */
+  
+  .planner-location-card {
+    margin-bottom: 3rem;
+  }
+  
+  .planner-location-pill {
+    margin-top: 0.8rem;
+    border-radius: 999px;
+    border: 1.5px solid #111827;
+    padding: 0.7rem 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.1rem;
+  }
+  
+  .planner-location-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .planner-location-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 999px;
+    border: 1.5px solid #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+  }
+  
+  .planner-location-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .planner-location-value {
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  
+  .planner-location-caption {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #6b7280;
+  }
+  
+  .planner-location-arrow {
+    font-size: 1.1rem;
+  }
+  
+  /* ---------- Job duration ---------- */
+  
+  .planner-dates-row {
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+  }
+  
+  .planner-date-pill {
+    padding: 0.7rem 1.4rem 0.9rem;
+    border-radius: 999px;
+    border: 1.5px solid #111827;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .planner-date-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 0.95rem;
+  }
+  
+  .planner-date-caption {
+    margin-top: 0.25rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #6b7280;
+  }
+  
+  /* ---------- Options grid (transport + housing) ---------- */
+  
+  .planner-options-grid {
+    margin-top: 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem 1.5rem;
+  }
+  
+  .planner-option-row {
+    font-size: 0.85rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.45rem;
+  }
+  
+  .planner-option-row input[type="radio"],
+  .planner-option-row input[type="checkbox"] {
+    margin-top: 0.1rem;
+  }
+  
+  /* ---------- Budget slider ---------- */
+  
+  .planner-budget-block {
+    margin-top: 1.8rem;
+  }
+  
+  .planner-budget-label {
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 1.1rem;
+  }
+  
+  .planner-budget-slider-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .planner-budget-slider-row input[type="range"] {
+    flex: 1;
+  }
+  
+  .planner-budget-edge {
+    font-size: 0.75rem;
+  }
+  
+  .planner-budget-value-pill {
+    margin: 0.8rem auto 0;
+    padding: 0.4rem 1.1rem;
+    border-radius: 999px;
+    border: 1px solid #111827;
+    display: inline-block;
+    font-size: 0.8rem;
+  }
+  
+  .planner-housing-prefs {
+    margin-top: 1.5rem;
+  }
+  
+  .planner-pref-row {
+    margin-top: 0.6rem;
+  }
+  
+  /* ---------- Actions ---------- */
+  
+  .planner-actions {
+    display: flex;
+    justify-content: center;
+    margin: 2.4rem 0 3rem;
+  }
+  
+  .planner-primary-btn {
+    padding: 0.9rem 2.2rem;
+    border-radius: 999px;
+    border: 2px solid #000000;
+    background: #111827;
+    color: #f9fafb;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    box-shadow: 0 10px 0 #000000;
+  }
+  
+  .planner-primary-btn:hover {
+    transform: translateY(1px);
+  }
+  
+  /* ---------- Responsive tweaks ---------- */
+  
+  @media (max-width: 900px) {
+    .planner-card {
+      min-height: 220px;
+    }
+    .planner-hero-title {
+      font-size: 1.6rem;
+    }
+  
+    .planner-section {
+      padding-inline: 1.25rem;
+    }
+  
+    .planner-location-pill {
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+  
+    .planner-dates-row {
+      flex-direction: column;
+    }
+  
+    .planner-options-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+  

@@ -1,0 +1,50 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Keep it simple: dark background, light text */
+  color: #f9fafb;
+  background-color: #020617;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: #38bdf8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Make the body fill the viewport and use the dark background */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #020617;
+}
+
+/* Let React take full width/height */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* You can keep headings/buttons mostly unstyled here;
+   App.css will handle the actual look */
+h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+button {
+  font-family: inherit;
+}

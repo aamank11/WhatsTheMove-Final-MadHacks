@@ -1,0 +1,240 @@
+id,formattedAddress,city,state,zipCode,latitude,longitude,propertyType,bedrooms,bathrooms,squareFootage,yearBuilt,status,price,listingType,listedDate,daysOnMarket
+"1251-1275-Christopher-Dr,-Neenah,-WI-54956","1251-1275 Christopher Dr, Neenah, WI 54956",Neenah,WI,54956,44.222855,-88.488846,Apartment,2,1,1150,,Active,1349,Standard,2025-11-22T00:00:00.000Z,1
+"1317-Orchard-Ct,-Neenah,-WI-54956","1317 Orchard Ct, Neenah, WI 54956",Neenah,WI,54956,44.227841,-88.491895,Single Family,4,3.5,2604,,Active,2700,Standard,2025-11-22T00:00:00.000Z,1
+"216-Oak-St,-Neenah,-WI-54956","216 Oak St, Neenah, WI 54956",Neenah,WI,54956,44.182974,-88.458277,Single Family,3,2,1100,,Active,1600,Standard,2025-11-22T00:00:00.000Z,1
+"112-Andrew-Ave,-Apt-4,-Neenah,-WI-54956","112 Andrew Ave, Apt 4, Neenah, WI 54956",Neenah,WI,54956,44.188938,-88.483315,Condo,2,1,,,Active,815,Standard,2025-11-22T00:00:00.000Z,1
+"771-S-Commercial-St,-Neenah,-WI-54956","771 S Commercial St, Neenah, WI 54956",Neenah,WI,54956,44.175498,-88.465291,Condo,2,1,744,,Active,795,Standard,2025-11-22T00:00:00.000Z,1
+"927-Louise-St,-Apt-3,-Neenah,-WI-54956","927 Louise St, Apt 3, Neenah, WI 54956",Neenah,WI,54956,44.171513,-88.493683,Condo,2,1,,,Active,899,Standard,2025-11-22T00:00:00.000Z,1
+"1250-Burnette-St,-Neenah,-WI-54956","1250 Burnette St, Neenah, WI 54956",Neenah,WI,54956,44.201069,-88.49,Single Family,3,1.5,1716,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"128-W-Bell-St,-Neenah,-WI-54956","128 W Bell St, Neenah, WI 54956",Neenah,WI,54956,44.15567,-88.46473,Apartment,2,1,1016,1995,Active,1195,Standard,2025-11-22T00:00:00.000Z,1
+"927-Louise-St,-Apt-1,-Neenah,-WI-54956","927 Louise St, Apt 1, Neenah, WI 54956",Neenah,WI,54956,44.171513,-88.493683,Condo,2,1,,,Active,949,Standard,2025-11-22T00:00:00.000Z,1
+"1057-W-Cecil-St,-Apt-4,-Neenah,-WI-54956","1057 W Cecil St, Apt 4, Neenah, WI 54956",Neenah,WI,54956,44.171127,-88.493835,Condo,2,1,,,Active,949,Standard,2025-11-22T00:00:00.000Z,1
+"349-Stanley-Ct,-Neenah,-WI-54956","349 Stanley Ct, Neenah, WI 54956",Neenah,WI,54956,44.160915,-88.471954,Condo,3,1.5,1306,,Active,1149,Standard,2025-11-22T00:00:00.000Z,1
+"140-N-Western-Ave,-Neenah,-WI-54956","140 N Western Ave, Neenah, WI 54956",Neenah,WI,54956,44.190826,-88.480408,Apartment,3,2,1473,,Active,1113,Standard,2025-11-22T00:00:00.000Z,1
+"211-Clairmont-Ct,-Neenah,-WI-54956","211 Clairmont Ct, Neenah, WI 54956",Neenah,WI,54956,44.161488,-88.469215,Apartment,2,1,900,,Active,875,Standard,2025-11-22T00:00:00.000Z,1
+"210-5-W-Wisconsin-Ave,-Neenah,-WI-54956","210.5 W Wisconsin Ave, Neenah, WI 54956",Neenah,WI,54956,44.187286,-88.46402,Apartment,2,1,1200,,Active,1200,Standard,2025-11-22T00:00:00.000Z,1
+"413-Green-St,-Neenah,-WI-54956","413 Green St, Neenah, WI 54956",Neenah,WI,54956,44.190864,-88.451458,Single Family,2,2,1250,,Active,1650,Standard,2025-11-22T00:00:00.000Z,1
+"108-Irene-St,-Neenah,-WI-54956","108 Irene St, Neenah, WI 54956",Neenah,WI,54956,44.178861,-88.477051,Apartment,2,1,,,Active,1100,Standard,2025-06-13T00:00:00.000Z,163
+"1225-Doctors-Dr,-Neenah,-WI-54956","1225 Doctors Dr, Neenah, WI 54956",Neenah,WI,54956,44.167032,-88.46623,Apartment,2,1,800,,Active,949,Standard,2024-12-14T00:00:00.000Z,344
+"2111-Henry-St,-Neenah,-WI-54956","2111 Henry St, Neenah, WI 54956",Neenah,WI,54956,44.160736,-88.46788,Apartment,2,2,,,Active,1075,Standard,2025-03-06T00:00:00.000Z,262
+"518-Isabella-St,-Neenah,-WI-54956","518 Isabella St, Neenah, WI 54956",Neenah,WI,54956,44.183311,-88.466583,Apartment,1,1,650,,Active,949,Standard,2025-05-02T00:00:00.000Z,205
+"2273-Country-Ln,-Neenah,-WI-54956","2273 Country Ln, Neenah, WI 54956",Neenah,WI,54956,44.234978,-88.470938,Apartment,2,1,1000,,Active,1500,Standard,2025-11-06T00:00:00.000Z,17
+"203-Joseph-Ct,-Neenah,-WI-54956","203 Joseph Ct, Neenah, WI 54956",Neenah,WI,54956,44.162556,-88.468369,Apartment,1,1,864,,Active,975,Standard,2025-03-06T00:00:00.000Z,262
+"200-Bond-St,-Neenah,-WI-54956","200 Bond St, Neenah, WI 54956",Neenah,WI,54956,44.191016,-88.459063,Apartment,0,1,350,,Active,649,Standard,2025-11-18T00:00:00.000Z,5
+"406-1st-St,-Apt-19,-Neenah,-WI-54956","406 1st St, Apt 19, Neenah, WI 54956",Neenah,WI,54956,44.192266,-88.455411,Apartment,2,2,1150,,Active,1275,Standard,2025-10-02T00:00:00.000Z,52
+"821-823-Warbler-Ln,-Neenah,-WI-54952","821-823 Warbler Ln, Neenah, WI 54952",Neenah,WI,54952,44.237286,-88.476807,Townhouse,3,1.5,1300,,Active,1950,Standard,2025-10-14T00:00:00.000Z,40
+"416-High-St,-Neenah,-WI-54956","416 High St, Neenah, WI 54956",Neenah,WI,54956,44.192092,-88.462202,Apartment,3,1,1154,,Active,1299,Standard,2025-07-24T00:00:00.000Z,122
+"1007-S-Lake-St,-Neenah,-WI-54956","1007 S Lake St, Neenah, WI 54956",Neenah,WI,54956,44.17927,-88.481592,Apartment,2,1,,1990,Active,950,Standard,2025-09-26T00:00:00.000Z,58
+"215-Main-St,-Neenah,-WI-54956","215 Main St, Neenah, WI 54956",Neenah,WI,54956,44.18734,-88.467117,Apartment,0,1,566,,Active,1324,Standard,2025-04-03T00:00:00.000Z,234
+"1675-Delta-Dr,-Unit-1,-Neenah,-WI-54956","1675 Delta Dr, Unit 1, Neenah, WI 54956",Neenah,WI,54956,44.221992,-88.479454,Condo,2,1,,,Active,1425,Standard,2025-09-25T00:00:00.000Z,59
+"339-5th-St,-Neenah,-WI-54956","339 5th St, Neenah, WI 54956",Neenah,WI,54956,44.19174,-88.449309,Apartment,1,1,850,,Active,1000,Standard,2025-11-07T00:00:00.000Z,16
+"716-S-Commercial-St,-Neenah,-WI-54956","716 S Commercial St, Neenah, WI 54956",Neenah,WI,54956,44.177732,-88.464578,Single Family,4,2,2500,,Active,2300,Standard,2025-11-05T00:00:00.000Z,18
+"205-Adams-St,-Neenah,-WI-54956","205 Adams St, Neenah, WI 54956",Neenah,WI,54956,44.183297,-88.465859,Apartment,1,1,550,1970,Active,899,Standard,2024-04-15T00:00:00.000Z,587
+"671-S-Western-Ave,-Neenah,-WI-54956","671 S Western Ave, Neenah, WI 54956",Neenah,WI,54956,44.17971,-88.48031,Apartment,1,1,750,,Active,999,Standard,2025-02-13T00:00:00.000Z,283
+"1059-Gillingham-Rd,-Neenah,-WI-54956","1059 Gillingham Rd, Neenah, WI 54956",Neenah,WI,54956,44.168439,-88.486106,Apartment,2,1,650,,Active,995,Standard,2025-11-18T00:00:00.000Z,5
+"1031-Hunt-Ave,-Neenah,-WI-54956","1031 Hunt Ave, Neenah, WI 54956",Neenah,WI,54956,44.169138,-88.477823,Apartment,1,1,550,,Active,849,Standard,2025-09-05T00:00:00.000Z,79
+"2382-Jacobsen-Rd,-Neenah,-WI-54956","2382 Jacobsen Rd, Neenah, WI 54956",Neenah,WI,54956,44.214692,-88.522536,Single Family,3,2,1500,,Active,2295,Standard,2025-06-24T00:00:00.000Z,151
+"127-W-Wisconsin-Ave,-Unit-1061653P,-Neenah,-WI-54956","127 W Wisconsin Ave, Unit 1061653P, Neenah, WI 54956",Neenah,WI,54956,44.187149,-88.46244,Apartment,1,1,699,,Active,11970,Standard,2025-09-11T00:00:00.000Z,72
+"1263-1265-Meadow-Ln,-Neenah,-WI-54956","1263-1265 Meadow Ln, Neenah, WI 54956",Neenah,WI,54956,44.16135,-88.490761,Multi-Family,2,1,1696,,Active,1195,Standard,2025-10-02T00:00:00.000Z,50
+"120-Gruenwald-Ave,-Neenah,-WI-54956","120 Gruenwald Ave, Neenah, WI 54956",Neenah,WI,54956,44.190164,-88.48185,Apartment,2,1,,,Active,1050,Standard,2025-10-10T00:00:00.000Z,42
+"1254-1256-Meadow-Ln,-Neenah,-WI-54956","1254-1256 Meadow Ln, Neenah, WI 54956",Neenah,WI,54956,44.161137,-88.490166,Multi-Family,2,1,1776,,Active,1245,Standard,2025-11-12T00:00:00.000Z,9
+"3652-Interlake-Ave-N,-Apt-13,-Seattle,-WA-98103","3652 Interlake Ave N, Apt 13, Seattle, WA 98103",Seattle,WA,98103,47.652081,-122.341011,Apartment,2,2,800,,Active,2800,Standard,2025-11-22T00:00:00.000Z,1
+"14040-Courtland-Pl-N,-Seattle,-WA-98133","14040 Courtland Pl N, Seattle, WA 98133",Seattle,WA,98133,47.73171,-122.337718,Single Family,4,3,1250,,Active,2900,Standard,2025-11-22T00:00:00.000Z,1
+"1708B-Nw-58th-St,-Seattle,-WA-98107","1708B Nw 58th St, Seattle, WA 98107",Seattle,WA,98107,47.671143,-122.379295,Single Family,2,1,910,,Active,1850,Standard,2025-11-22T00:00:00.000Z,1
+"4207-5-34th-Ave-W,-Seattle,-WA-98199","4207.5 34th Ave W, Seattle, WA 98199",Seattle,WA,98199,47.65794,-122.401176,Apartment,0,1,300,,Active,1250,Standard,2025-11-22T00:00:00.000Z,1
+"1837-S-116th-St,-Seattle,-WA-98168","1837 S 116th St, Seattle, WA 98168",Seattle,WA,98168,47.499138,-122.308395,Apartment,2,1,805,,Active,1750,Standard,2025-11-22T00:00:00.000Z,1
+"2014-41st-Ave-E,-Seattle,-WA-98112","2014 41st Ave E, Seattle, WA 98112",Seattle,WA,98112,47.637433,-122.279299,Single Family,2,2,1700,,Active,4200,Standard,2025-11-22T00:00:00.000Z,1
+"409-10th-Ave-E,-Apt-104,-Seattle,-WA-98102","409 10th Ave E, Apt 104, Seattle, WA 98102",Seattle,WA,98102,47.622307,-122.320206,Apartment,0,1,450,,Active,1575,Standard,2025-11-22T00:00:00.000Z,1
+"2107-Ne-54th-St,-Unit-A3,-Seattle,-WA-98105","2107 Ne 54th St, Unit A3, Seattle, WA 98105",Seattle,WA,98105,47.667801,-122.305077,Apartment,1,3,,,Active,690,Standard,2025-11-22T00:00:00.000Z,1
+"736-Bellevue-Pl-E,-Unit-412,-Seattle,-WA-98102","736 Bellevue Pl E, Unit 412, Seattle, WA 98102",Seattle,WA,98102,47.626171,-122.327576,Apartment,0,1,348,,Active,1207,Standard,2025-11-22T00:00:00.000Z,1
+"5257-Brooklyn-Ave-NE,-Unit-4,-Seattle,-WA-98105","5257 Brooklyn Ave NE, Unit 4, Seattle, WA 98105",Seattle,WA,98105,47.668125,-122.314377,Apartment,1,1,,,Active,750,Standard,2025-11-22T00:00:00.000Z,1
+"1305-E-Howell-St,-Apt-303,-Seattle,-WA-98122","1305 E Howell St, Apt 303, Seattle, WA 98122",Seattle,WA,98122,47.617416,-122.315208,Apartment,0,1,454,,Active,1545,Standard,2025-11-22T00:00:00.000Z,1
+"10757-Greenwood-Ave-N,-Apt-224,-Seattle,-WA-98133","10757 Greenwood Ave N, Apt 224, Seattle, WA 98133",Seattle,WA,98133,47.708473,-122.355896,Apartment,1,1,711,,Active,1545,Standard,2025-11-22T00:00:00.000Z,1
+"2318-California-Ave-SW,-Apt-304,-Seattle,-WA-98116","2318 California Ave SW, Apt 304, Seattle, WA 98116",Seattle,WA,98116,47.582413,-122.386154,Apartment,1,1,550,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"1215-Seneca-St,-Apt-317,-Seattle,-WA-98101","1215 Seneca St, Apt 317, Seattle, WA 98101",Seattle,WA,98101,47.611317,-122.324409,Apartment,1,1,638,,Active,1595,Standard,2025-11-22T00:00:00.000Z,1
+"13002-1st-Ave-NE,-Seattle,-WA-98125","13002 1st Ave NE, Seattle, WA 98125",Seattle,WA,98125,47.723334,-122.328551,Single Family,3,1,1080,,Active,2750,Standard,2025-11-22T00:00:00.000Z,1
+"1615-15th-Ave,-Unit-42,-Seattle,-WA-98122","1615 15th Ave, Unit 42, Seattle, WA 98122",Seattle,WA,98122,47.615788,-122.313141,Apartment,1,1,520,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"2257A-Ne-53rd-St,-Unit-18,-Seattle,-WA-98105","2257A Ne 53rd St, Unit 18, Seattle, WA 98105",Seattle,WA,98105,47.666782,-122.302803,Apartment,2,1,650,,Active,1795,Standard,2025-11-22T00:00:00.000Z,1
+"509-19th-Ave-E,-Apt-103,-Seattle,-WA-98112","509 19th Ave E, Apt 103, Seattle, WA 98112",Seattle,WA,98112,47.623638,-122.307655,Apartment,1,1,590,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"1615-15th-Ave,-Unit-30,-Seattle,-WA-98122","1615 15th Ave, Unit 30, Seattle, WA 98122",Seattle,WA,98122,47.615788,-122.313141,Apartment,1,1,705,,Active,1795,Standard,2025-11-22T00:00:00.000Z,1
+"1615-15th-Ave,-Unit-50,-Seattle,-WA-98122","1615 15th Ave, Unit 50, Seattle, WA 98122",Seattle,WA,98122,47.615788,-122.313141,Apartment,1,1,630,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"1420-Boren-Ave,-Apt-109,-Seattle,-WA-98101","1420 Boren Ave, Apt 109, Seattle, WA 98101",Seattle,WA,98101,47.613167,-122.328217,Apartment,0,1,325,,Active,1195,Standard,2025-11-22T00:00:00.000Z,1
+"151-John-St,-Apt-2D,-Seattle,-WA-98109","151 John St, Apt 2D, Seattle, WA 98109",Seattle,WA,98109,47.619587,-122.35376,Apartment,0,1,585,,Active,1395,Standard,2025-11-22T00:00:00.000Z,1
+"2244-13th-Ave,-Apt-106W,-Seattle,-WA-98119","2244 13th Ave, Apt 106W, Seattle, WA 98119",Seattle,WA,98119,47.639881,-122.373311,Apartment,1,1,587,,Active,1795,Standard,2025-11-22T00:00:00.000Z,1
+"1305-E-Denny-Way,-Apt-100,-Seattle,-WA-98122","1305 E Denny Way, Apt 100, Seattle, WA 98122",Seattle,WA,98122,47.618626,-122.315224,Apartment,1,1,500,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"5505-15th-Ave-NE,-Apt-304,-Seattle,-WA-98105","5505 15th Ave NE, Apt 304, Seattle, WA 98105",Seattle,WA,98105,47.668701,-122.312202,Apartment,2,2,880,,Active,2095,Standard,2025-11-22T00:00:00.000Z,1
+"902-Ne-43rd-St,-Seattle,-WA-98105","902 Ne 43rd St, Seattle, WA 98105",Seattle,WA,98105,47.659634,-122.318489,Apartment,1,1,737,,Active,1850,Standard,2025-11-22T00:00:00.000Z,1
+"13826-Greenwood-Ave-N,-Seattle,-WA-98133","13826 Greenwood Ave N, Seattle, WA 98133",Seattle,WA,98133,47.730408,-122.355118,Apartment,1,1,574,,Active,1395,Standard,2025-11-22T00:00:00.000Z,1
+"1700-Taylor-Ave-N,-Seattle,-WA-98109","1700 Taylor Ave N, Seattle, WA 98109",Seattle,WA,98109,47.634358,-122.346233,Apartment,1,1,750,1960,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"4532-42nd-Ave-SW,-Unit-410,-Seattle,-WA-98116","4532 42nd Ave SW, Unit 410, Seattle, WA 98116",Seattle,WA,98116,47.561924,-122.385094,Apartment,1,1,634,,Active,1795,Standard,2025-11-22T00:00:00.000Z,1
+"205-19th-Ave-E,-Apt-404,-Seattle,-WA-98112","205 19th Ave E, Apt 404, Seattle, WA 98112",Seattle,WA,98112,47.619938,-122.307648,Apartment,1,1,552,,Active,1795,Standard,2025-11-22T00:00:00.000Z,1
+"949-N-80th-St,-Apt-307,-Seattle,-WA-98103","949 N 80th St, Apt 307, Seattle, WA 98103",Seattle,WA,98103,47.686768,-122.345001,Apartment,1,1,525,,Active,1595,Standard,2025-11-22T00:00:00.000Z,1
+"509-19th-Ave-E,-Apt-304,-Seattle,-WA-98112","509 19th Ave E, Apt 304, Seattle, WA 98112",Seattle,WA,98112,47.623638,-122.307655,Apartment,1,1,590,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"1700-Summit-Ave,-Apt-103,-Seattle,-WA-98122","1700 Summit Ave, Apt 103, Seattle, WA 98122",Seattle,WA,98122,47.616516,-122.325241,Apartment,1,1,499,,Active,1395,Standard,2025-11-22T00:00:00.000Z,1
+"205-19th-Ave-E,-Apt-402,-Seattle,-WA-98112","205 19th Ave E, Apt 402, Seattle, WA 98112",Seattle,WA,98112,47.619938,-122.307648,Apartment,0,1,300,,Active,1395,Standard,2025-11-22T00:00:00.000Z,1
+"1305-E-Denny-Way,-Apt-107,-Seattle,-WA-98122","1305 E Denny Way, Apt 107, Seattle, WA 98122",Seattle,WA,98122,47.618626,-122.315224,Apartment,0,1,360,,Active,1195,Standard,2025-11-22T00:00:00.000Z,1
+"5505-15th-Ave-NE,-Apt-302,-Seattle,-WA-98105","5505 15th Ave NE, Apt 302, Seattle, WA 98105",Seattle,WA,98105,47.668701,-122.312202,Apartment,1,1,580,,Active,1395,Standard,2025-11-22T00:00:00.000Z,1
+"509-19th-Ave-E,-Apt-107,-Seattle,-WA-98112","509 19th Ave E, Apt 107, Seattle, WA 98112",Seattle,WA,98112,47.623638,-122.307655,Apartment,0,1,457,,Active,1595,Standard,2025-11-22T00:00:00.000Z,1
+"321-Broadway-E,-Apt-406,-Seattle,-WA-98102","321 Broadway E, Apt 406, Seattle, WA 98102",Seattle,WA,98102,47.621674,-122.321274,Apartment,0,1,380,,Active,1395,Standard,2025-11-22T00:00:00.000Z,1
+"3520-28th-Ave-W,-Apt-408,-Seattle,-WA-98199","3520 28th Ave W, Apt 408, Seattle, WA 98199",Seattle,WA,98199,47.652088,-122.392273,Apartment,2,2,1100,,Active,2495,Standard,2025-11-22T00:00:00.000Z,1
+"316-E-Harrison-St,-Apt-103,-Seattle,-WA-98102","316 E Harrison St, Apt 103, Seattle, WA 98102",Seattle,WA,98102,47.622135,-122.326965,Apartment,1,1,750,,Active,1895,Standard,2025-11-22T00:00:00.000Z,1
+"5231-22nd-Ave-NE,-Apt-2,-Seattle,-WA-98105","5231 22nd Ave NE, Apt 2, Seattle, WA 98105",Seattle,WA,98105,47.66732,-122.304771,Apartment,1,1,750,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"224-Harvard-Ave-E,-Apt-403,-Seattle,-WA-98102","224 Harvard Ave E, Apt 403, Seattle, WA 98102",Seattle,WA,98102,47.620705,-122.321869,Apartment,1,1,475,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"531-Malden-Ave-E,-Apt-304,-Seattle,-WA-98112","531 Malden Ave E, Apt 304, Seattle, WA 98112",Seattle,WA,98112,47.624111,-122.313919,Apartment,0,1,440,,Active,1650,Standard,2025-11-22T00:00:00.000Z,1
+"504-E-Denny-Way,-Apt-1,-Seattle,-WA-98122","504 E Denny Way, Apt 1, Seattle, WA 98122",Seattle,WA,98122,47.618664,-122.324905,Apartment,0,1,1150,,Active,2095,Standard,2025-11-22T00:00:00.000Z,1
+"151-John-St,-Apt-5A,-Seattle,-WA-98109","151 John St, Apt 5A, Seattle, WA 98109",Seattle,WA,98109,47.619587,-122.35376,Apartment,1,1,658,,Active,1995,Standard,2025-11-22T00:00:00.000Z,1
+"605-10th-Ave-E,-Apt-8,-Seattle,-WA-98102","605 10th Ave E, Apt 8, Seattle, WA 98102",Seattle,WA,98102,47.624462,-122.320122,Apartment,0,1,400,,Active,1150,Standard,2025-11-22T00:00:00.000Z,1
+"9100-Roosevelt-Way-NE,-Apt-302,-Seattle,-WA-98115","9100 Roosevelt Way NE, Apt 302, Seattle, WA 98115",Seattle,WA,98115,47.695164,-122.317307,Apartment,1,1,695,,Active,1995,Standard,2025-11-22T00:00:00.000Z,1
+"3652-Phinney-Ave-N,-Unit-1,-Seattle,-WA-98103","3652 Phinney Ave N, Unit 1, Seattle, WA 98103",Seattle,WA,98103,47.653782,-122.354134,Apartment,1,1,,,Active,1795,Standard,2025-11-22T00:00:00.000Z,1
+"2603-E-Union-St,-Unit-B,-Seattle,-WA-98122","2603 E Union St, Unit B, Seattle, WA 98122",Seattle,WA,98122,47.612728,-122.298531,Apartment,2,1,850,,Active,2100,Standard,2025-11-22T00:00:00.000Z,1
+"14019-32nd-Ave-NE,-Apt-47,-Seattle,-WA-98125","14019 32nd Ave NE, Apt 47, Seattle, WA 98125",Seattle,WA,98125,47.730721,-122.294769,Apartment,1,1,570,,Active,1395,Standard,2025-11-22T00:00:00.000Z,1
+"7001-Roosevelt-Mfte-Way-NE,-Unit-403,-Seattle,-WA-98115","7001 Roosevelt Mfte Way NE, Unit 403, Seattle, WA 98115",Seattle,WA,98115,47.679688,-122.317642,Apartment,1,1,392,,Active,1495,Standard,2025-11-22T00:00:00.000Z,1
+"105-Nw-39th-St,-Unit-C,-Seattle,-WA-98107","105 Nw 39th St, Unit C, Seattle, WA 98107",Seattle,WA,98107,47.653996,-122.358002,Townhouse,3,2,1284,,Active,3950,Standard,2025-11-22T00:00:00.000Z,1
+"7401-Linden-Ave-N,-Apt-3,-Seattle,-WA-98103","7401 Linden Ave N, Apt 3, Seattle, WA 98103",Seattle,WA,98103,47.682785,-122.346596,Apartment,0,1,250,,Active,1195,Standard,2025-11-22T00:00:00.000Z,1
+"2410-E-Lynn-St,-Apt-208,-Seattle,-WA-98112","2410 E Lynn St, Apt 208, Seattle, WA 98112",Seattle,WA,98112,47.639751,-122.301552,Apartment,0,1,400,,Active,1395,Standard,2025-11-22T00:00:00.000Z,1
+"1321-E-John-St,-Apt-406,-Seattle,-WA-98102","1321 E John St, Apt 406, Seattle, WA 98102",Seattle,WA,98102,47.619789,-122.31469,Apartment,1,1,499,,Active,1999,Standard,2025-11-22T00:00:00.000Z,1
+"4238-Evanston-Ave-N-Unit-A,-Seattle,-WA-98103","4238 Evanston Ave N Unit A, Seattle, WA 98103",Seattle,WA,98103,47.658772,-122.350716,Apartment,0,1,420,,Active,1195,Standard,2025-11-22T00:00:00.000Z,1
+"1305-E-Howell-St,-Apt-209,-Seattle,-WA-98122","1305 E Howell St, Apt 209, Seattle, WA 98122",Seattle,WA,98122,47.617416,-122.315208,Apartment,0,1,529,,Active,1495,Standard,2025-11-22T00:00:00.000Z,1
+"403-Belmont-Ave-E,-Unit-402,-Seattle,-WA-98102","403 Belmont Ave E, Unit 402, Seattle, WA 98102",Seattle,WA,98102,47.622166,-122.324303,Apartment,1,1,676,,Active,2495,Standard,2025-11-22T00:00:00.000Z,1
+"115-17th-Ave-Unit-B,-Seattle,-WA-98122","115 17th Ave Unit B, Seattle, WA 98122",Seattle,WA,98122,47.602179,-122.31078,Single Family,3,2.5,1562,2005,Active,3095,Standard,2025-11-22T00:00:00.000Z,1
+"3150-Fairview-Ave-E,-Apt-501,-Seattle,-WA-98102","3150 Fairview Ave E, Apt 501, Seattle, WA 98102",Seattle,WA,98102,47.650066,-122.323387,Apartment,2,2,906,,Active,2999,Standard,2025-11-22T00:00:00.000Z,1
+"2731-S-Judkins-St,-Seattle,-WA-98144","2731 S Judkins St, Seattle, WA 98144",Seattle,WA,98144,47.591856,-122.296235,Single Family,3,1,1200,,Active,2795,Standard,2025-11-22T00:00:00.000Z,1
+"1305-E-Denny-Way,-Apt-302,-Seattle,-WA-98122","1305 E Denny Way, Apt 302, Seattle, WA 98122",Seattle,WA,98122,47.618626,-122.315224,Apartment,0,1,360,,Active,1295,Standard,2025-11-22T00:00:00.000Z,1
+"206-Bell-St,-Apt-212,-Seattle,-WA-98121","206 Bell St, Apt 212, Seattle, WA 98121",Seattle,WA,98121,47.614376,-122.345627,Apartment,1,1,636,,Active,1995,Standard,2025-11-22T00:00:00.000Z,1
+"1470-Nw-70th-St,-Seattle,-WA-98117","1470 Nw 70th St, Seattle, WA 98117",Seattle,WA,98117,47.679659,-122.375939,Townhouse,3,2.5,1365,,Active,3145,Standard,2025-11-22T00:00:00.000Z,1
+"9200-Greenwood-Ave-N,-Apt-201,-Seattle,-WA-98103","9200 Greenwood Ave N, Apt 201, Seattle, WA 98103",Seattle,WA,98103,47.696315,-122.354939,Single Family,1,1,659,,Active,1589,Standard,2025-11-22T00:00:00.000Z,1
+"104-21st-Ave,-Apt-302,-Seattle,-WA-98122","104 21st Ave, Apt 302, Seattle, WA 98122",Seattle,WA,98122,47.601894,-122.304741,Apartment,1,1,650,,Active,1495,Standard,2025-11-22T00:00:00.000Z,1
+"1727-14th-Ave,-Apt-3,-Seattle,-WA-98122","1727 14th Ave, Apt 3, Seattle, WA 98122",Seattle,WA,98122,47.61721,-122.314606,Apartment,1,1,584,,Active,1995,Standard,2025-11-22T00:00:00.000Z,1
+"206-Bell-St,-Apt-310,-Seattle,-WA-98121","206 Bell St, Apt 310, Seattle, WA 98121",Seattle,WA,98121,47.614376,-122.345627,Apartment,0,1,462,,Active,1495,Standard,2025-11-22T00:00:00.000Z,1
+"2430-Nw-59th-St,-Seattle,-WA-98107","2430 Nw 59th St, Seattle, WA 98107",Seattle,WA,98107,47.671875,-122.389106,Townhouse,2,1,1000,,Active,2650,Standard,2025-11-22T00:00:00.000Z,1
+"121-Stewart-St,-Apt-1003,-Seattle,-WA-98101","121 Stewart St, Apt 1003, Seattle, WA 98101",Seattle,WA,98101,47.61064,-122.340526,Condo,1,1,768,,Active,2300,Standard,2025-11-22T00:00:00.000Z,1
+"115-N-46th-St,-Seattle,-WA-98103","115 N 46th St, Seattle, WA 98103",Seattle,WA,98103,47.662098,-122.357046,Townhouse,4,2.5,2130,,Active,6500,Standard,2025-11-22T00:00:00.000Z,1
+"206-Bell-St,-Apt-819,-Seattle,-WA-98121","206 Bell St, Apt 819, Seattle, WA 98121",Seattle,WA,98121,47.614376,-122.345627,Apartment,2,1,793,,Active,2795,Standard,2025-11-22T00:00:00.000Z,1
+"2109-N-63rd-St,-Unit-3B,-Seattle,-WA-98103","2109 N 63rd St, Unit 3B, Seattle, WA 98103",Seattle,WA,98103,47.674297,-122.333115,Apartment,1,1,520,,Active,1675,Standard,2025-11-22T00:00:00.000Z,1
+"7011-Roosevelt-Way-NE,-Apt-313,-Seattle,-WA-98115","7011 Roosevelt Way NE, Apt 313, Seattle, WA 98115",Seattle,WA,98115,47.679886,-122.317673,Apartment,0,1,393,,Active,1345,Standard,2025-11-22T00:00:00.000Z,1
+"4017-5th-Ave-NE,-Unit-1E,-Seattle,-WA-98105","4017 5th Ave NE, Unit 1E, Seattle, WA 98105",Seattle,WA,98105,47.656113,-122.323837,Apartment,1,2,150,,Active,695,Standard,2025-11-22T00:00:00.000Z,1
+"215-Queen-Anne-Ave-N,-Apt-510,-Seattle,-WA-98109","215 Queen Anne Ave N, Apt 510, Seattle, WA 98109",Seattle,WA,98109,47.620262,-122.357002,Apartment,1,1,548,,Active,1945,Standard,2025-11-22T00:00:00.000Z,1
+"817-Ne-64th-St,-Unit-11,-Seattle,-WA-98115","817 Ne 64th St, Unit 11, Seattle, WA 98115",Seattle,WA,98115,47.674831,-122.31926,Apartment,0,1,225,,Active,995,Standard,2025-11-22T00:00:00.000Z,1
+"3200-16th-Ave-W,-Apt-503,-Seattle,-WA-98119","3200 16th Ave W, Apt 503, Seattle, WA 98119",Seattle,WA,98119,47.648693,-122.376976,Apartment,1,1,653,,Active,1895,Standard,2025-11-22T00:00:00.000Z,1
+"10737-Greenwood-Ave-N,-Apt-202,-Seattle,-WA-98133","10737 Greenwood Ave N, Apt 202, Seattle, WA 98133",Seattle,WA,98133,47.708057,-122.355873,Apartment,1,1,,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"2022-Taylor-Ave-N-Unit-A,-Seattle,-WA-98109","2022 Taylor Ave N Unit A, Seattle, WA 98109",Seattle,WA,98109,47.637257,-122.345734,Single Family,3,4,3400,,Active,6700,Standard,2025-11-22T00:00:00.000Z,1
+"9211-Ashworth-Ave-N-Unit-B,-Seattle,-WA-98103","9211 Ashworth Ave N Unit B, Seattle, WA 98103",Seattle,WA,98103,47.696443,-122.340114,Single Family,2,2.5,1340,,Active,2795,Standard,2025-11-22T00:00:00.000Z,1
+"2332-W-Newton-St,-Apt-3,-Seattle,-WA-98199","2332 W Newton St, Apt 3, Seattle, WA 98199",Seattle,WA,98199,47.637203,-122.387672,Apartment,3,2,1530,,Active,3245,Standard,2025-11-22T00:00:00.000Z,1
+"5222-Brooklyn-Ave-NE,-Unit-3,-Seattle,-WA-98105","5222 Brooklyn Ave NE, Unit 3, Seattle, WA 98105",Seattle,WA,98105,47.667194,-122.313934,Apartment,1,1,95,,Active,835,Standard,2025-11-22T00:00:00.000Z,1
+"8815-23rd-Ave-NE,-Apt-2,-Seattle,-WA-98115","8815 23rd Ave NE, Apt 2, Seattle, WA 98115",Seattle,WA,98115,47.692562,-122.304451,Townhouse,2,1.5,1200,,Active,2058,Standard,2025-11-22T00:00:00.000Z,1
+"4300-Woodland-Park-Ave-N,-Apt-104,-Seattle,-WA-98103","4300 Woodland Park Ave N, Apt 104, Seattle, WA 98103",Seattle,WA,98103,47.659443,-122.344269,Apartment,1,1,530,,Active,1445,Standard,2025-11-22T00:00:00.000Z,1
+"6209-1-2-15th-Ave-NW,-Unit-202,-Seattle,-WA-98107","6209 1/2 15th Ave NW, Unit 202, Seattle, WA 98107",Seattle,WA,98107,47.67409,-122.376483,Apartment,0,1,500,,Active,1067,Standard,2025-11-22T00:00:00.000Z,1
+"1015-Ne-55th-St,-Seattle,-WA-98105","1015 Ne 55th St, Seattle, WA 98105",Seattle,WA,98105,47.668441,-122.316713,Single Family,8,3,1950,2019,Active,4995,Standard,2025-11-22T00:00:00.000Z,1
+"3821-S-Angeline-St,-Seattle,-WA-98118","3821 S Angeline St, Seattle, WA 98118",Seattle,WA,98118,47.559149,-122.284199,Single Family,3,2.5,1150,,Active,3495,Standard,2025-11-22T00:00:00.000Z,1
+"5268-University-Way-NE,-Apt-2,-Seattle,-WA-98105","5268 University Way NE, Apt 2, Seattle, WA 98105",Seattle,WA,98105,47.668327,-122.312805,Condo,3,1,1000,,Active,2350,Standard,2025-11-22T00:00:00.000Z,1
+"5915B-California-Ave-SW,-Seattle,-WA-98136","5915B California Ave SW, Seattle, WA 98136",Seattle,WA,98136,47.549735,-122.387354,Townhouse,3,2,1209,,Active,3195,Standard,2025-11-22T00:00:00.000Z,1
+"2856-14th-Ave-W,-Apt-7,-Seattle,-WA-98119","2856 14th Ave W, Apt 7, Seattle, WA 98119",Seattle,WA,98119,47.646442,-122.374634,Apartment,1,1,643,,Active,1526,Standard,2025-11-22T00:00:00.000Z,1
+"2715-Ne-115th-St,-Seattle,-WA-98125","2715 Ne 115th St, Seattle, WA 98125",Seattle,WA,98125,47.711747,-122.29872,Single Family,1,1,800,1963,Active,2195,Standard,2025-11-22T00:00:00.000Z,1
+"8806-Nesbit-Ave-N,-Apt-3,-Seattle,-WA-98103","8806 Nesbit Ave N, Apt 3, Seattle, WA 98103",Seattle,WA,98103,47.692692,-122.343147,Apartment,1,1,695,,Active,1475,Standard,2025-11-22T00:00:00.000Z,1
+"104-21st-Ave,-Apt-203,-Seattle,-WA-98122","104 21st Ave, Apt 203, Seattle, WA 98122",Seattle,WA,98122,47.601894,-122.304741,Apartment,1,1,650,,Active,1450,Standard,2025-11-22T00:00:00.000Z,1
+"4728-16th-Ave-NE,-Unit-1,-Seattle,-WA-98105","4728 16th Ave NE, Unit 1, Seattle, WA 98105",Seattle,WA,98105,47.663982,-122.310516,Single Family,8,2,2390,,Active,7950,Standard,2025-11-22T00:00:00.000Z,1
+"416-N-130th-St,-Seattle,-WA-98133","416 N 130th St, Seattle, WA 98133",Seattle,WA,98133,47.723495,-122.353434,Single Family,2,2.5,1090,,Active,2395,Standard,2025-11-22T00:00:00.000Z,1
+"206-Bell-St,-Apt-202,-Seattle,-WA-98121","206 Bell St, Apt 202, Seattle, WA 98121",Seattle,WA,98121,47.614376,-122.345627,Apartment,1,1,621,,Active,1795,Standard,2025-11-22T00:00:00.000Z,1
+"7121-Linden-Ave-N,-Apt-206,-Seattle,-WA-98103","7121 Linden Ave N, Apt 206, Seattle, WA 98103",Seattle,WA,98103,47.680916,-122.347481,Apartment,1,1,450,,Active,1445,Standard,2025-11-22T00:00:00.000Z,1
+"1441-Nw-52nd-St,-Apt-5,-Seattle,-WA-98107","1441 Nw 52nd St, Apt 5, Seattle, WA 98107",Seattle,WA,98107,47.666264,-122.375313,Apartment,1,1,500,,Active,1325,Standard,2025-11-22T00:00:00.000Z,1
+"2711-Ne-115th-St,-Apt-101,-Seattle,-WA-98125","2711 Ne 115th St, Apt 101, Seattle, WA 98125",Seattle,WA,98125,47.711666,-122.298935,Apartment,1,1,700,,Active,1825,Standard,2025-11-22T00:00:00.000Z,1
+"80-S-Main-St,-Apt-304,-Seattle,-WA-98104","80 S Main St, Apt 304, Seattle, WA 98104",Seattle,WA,98104,47.600227,-122.335129,Apartment,2,1,746,,Active,2395,Standard,2025-11-22T00:00:00.000Z,1
+"8023-Brooklyn-Ave-NE,-Seattle,-WA-98115","8023 Brooklyn Ave NE, Seattle, WA 98115",Seattle,WA,98115,47.687474,-122.314619,Single Family,3,2,1660,,Active,3200,Standard,2025-11-22T00:00:00.000Z,1
+"3035-Ne-130th-St,-Apt-5,-Seattle,-WA-98125","3035 Ne 130th St, Apt 5, Seattle, WA 98125",Seattle,WA,98125,47.722679,-122.294655,Apartment,1,1,725,,Active,1395,Standard,2025-11-22T00:00:00.000Z,1
+"5221-Ravenna-Ave-NE,-Unit-302,-Seattle,-WA-98105","5221 Ravenna Ave NE, Unit 302, Seattle, WA 98105",Seattle,WA,98105,47.667057,-122.303673,Apartment,0,1,247,,Active,1095,Standard,2025-11-22T00:00:00.000Z,1
+"8034-32nd-Ave-NW,-Seattle,-WA-98117","8034 32nd Ave NW, Seattle, WA 98117",Seattle,WA,98117,47.687776,-122.397921,Single Family,3,3,3110,,Active,4250,Standard,2025-11-22T00:00:00.000Z,1
+"6840-Oswego-Pl-NE,-Apt-201,-Seattle,-WA-98115","6840 Oswego Pl NE, Apt 201, Seattle, WA 98115",Seattle,WA,98115,47.678928,-122.323051,Apartment,1,1,525,,Active,1532,Standard,2025-11-22T00:00:00.000Z,1
+"2058-14th-Ave-W,-Apt-3,-Seattle,-WA-98119","2058 14th Ave W, Apt 3, Seattle, WA 98119",Seattle,WA,98119,47.638371,-122.374702,Apartment,2,1,850,,Active,1895,Standard,2025-11-22T00:00:00.000Z,1
+"5248-39th-Ave-Ne-Unit-B,-Seattle,-WA-98105","5248 39th Ave Ne Unit B, Seattle, WA 98105",Seattle,WA,98105,47.668265,-122.285479,Single Family,2,2.5,1076,,Active,3150,Standard,2025-11-22T00:00:00.000Z,1
+"3633-Linden-Ave-N,-Apt-105,-Seattle,-WA-98103","3633 Linden Ave N, Apt 105, Seattle, WA 98103",Seattle,WA,98103,47.652184,-122.348862,Apartment,0,1,245,,Active,1115,Standard,2025-11-22T00:00:00.000Z,1
+"8806-Nesbit-Ave-N,-Apt-6,-Seattle,-WA-98103","8806 Nesbit Ave N, Apt 6, Seattle, WA 98103",Seattle,WA,98103,47.692692,-122.343147,Apartment,1,1,673,,Active,1425,Standard,2025-11-22T00:00:00.000Z,1
+"912-3rd-Ave-W,-Apt-301,-Seattle,-WA-98119","912 3rd Ave W, Apt 301, Seattle, WA 98119",Seattle,WA,98119,47.627298,-122.360214,Condo,2,2,853,,Active,2700,Standard,2025-11-22T00:00:00.000Z,1
+"12025-5th-Ave-NE,-Unit-2,-Seattle,-WA-98125","12025 5th Ave NE, Unit 2, Seattle, WA 98125",Seattle,WA,98125,47.716663,-122.323975,Apartment,2,1,800,,Active,1850,Standard,2025-11-22T00:00:00.000Z,1
+"409-Federal-Ave-E,-Unit-411A,-Seattle,-WA-98102","409 Federal Ave E, Unit 411A, Seattle, WA 98102",Seattle,WA,98102,47.622349,-122.319054,Apartment,1,1,700,,Active,1945,Standard,2025-11-22T00:00:00.000Z,1
+"5221-Ravenna-Ave-NE,-Unit-B06,-Seattle,-WA-98105","5221 Ravenna Ave NE, Unit B06, Seattle, WA 98105",Seattle,WA,98105,47.667057,-122.303673,Apartment,0,1,251,,Active,1050,Standard,2025-11-22T00:00:00.000Z,1
+"3415-Ne-70th-St,-Apt-1,-Seattle,-WA-98115","3415 Ne 70th St, Apt 1, Seattle, WA 98115",Seattle,WA,98115,47.679176,-122.290932,Apartment,2,1,850,,Active,1925,Standard,2025-11-22T00:00:00.000Z,1
+"10329-Meridian-Ave-N,-Unit-A01,-Seattle,-WA-98133","10329 Meridian Ave N, Unit A01, Seattle, WA 98133",Seattle,WA,98133,47.70413,-122.334559,Single Family,2,2,854,,Active,2250,Standard,2025-11-22T00:00:00.000Z,1
+"4532-42nd-Ave-SW,-Unit-202,-Seattle,-WA-98116","4532 42nd Ave SW, Unit 202, Seattle, WA 98116",Seattle,WA,98116,47.561924,-122.385094,Apartment,1,1,676,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"1725-17th-Ave,-Seattle,-WA-98122","1725 17th Ave, Seattle, WA 98122",Seattle,WA,98122,47.61714,-122.31058,Single Family,3,2,1507,,Active,4250,Standard,2025-11-22T00:00:00.000Z,1
+"5268-University-Way-NE,-Unit-1405,-Seattle,-WA-98105","5268 University Way NE, Unit 1405, Seattle, WA 98105",Seattle,WA,98105,47.668327,-122.312805,Condo,0,1,800,,Active,1250,Standard,2025-11-22T00:00:00.000Z,1
+"151-10th-Ave,-Seattle,-WA-98122","151 10th Ave, Seattle, WA 98122",Seattle,WA,98122,47.602879,-122.319588,Apartment,2,1,800,,Active,1995,Standard,2025-11-22T00:00:00.000Z,1
+"2711-Ne-115th-St,-Apt-203,-Seattle,-WA-98125","2711 Ne 115th St, Apt 203, Seattle, WA 98125",Seattle,WA,98125,47.711666,-122.298935,Apartment,2,1,976,,Active,1900,Standard,2025-11-22T00:00:00.000Z,1
+"1530-Nw-Market-St,-Unit-214,-Seattle,-WA-98107","1530 Nw Market St, Unit 214, Seattle, WA 98107",Seattle,WA,98107,47.668944,-122.378028,Single Family,1,1,690,,Active,1895,Standard,2025-11-22T00:00:00.000Z,1
+"3433-14th-Ave-W,-Apt-2,-Seattle,-WA-98119","3433 14th Ave W, Apt 2, Seattle, WA 98119",Seattle,WA,98119,47.651348,-122.375237,Apartment,1,1,520,,Active,1375,Standard,2025-11-22T00:00:00.000Z,1
+"1030-Ne-125th-St,-Apt-3,-Seattle,-WA-98125","1030 Ne 125th St, Apt 3, Seattle, WA 98125",Seattle,WA,98125,47.719688,-122.316673,Apartment,2,1,680,,Active,1595,Standard,2025-11-22T00:00:00.000Z,1
+"3721-27th-Pl-W,-Apt-404,-Seattle,-WA-98199","3721 27th Pl W, Apt 404, Seattle, WA 98199",Seattle,WA,98199,47.653893,-122.391937,Apartment,2,2,937,,Active,2295,Standard,2025-11-22T00:00:00.000Z,1
+"2310-W-Dravus-St,-Seattle,-WA-98199","2310 W Dravus St, Seattle, WA 98199",Seattle,WA,98199,47.648627,-122.386513,Single Family,3,2.5,1671,,Active,3095,Standard,2025-11-22T00:00:00.000Z,1
+"1029-Summit-Ave-E,-Apt-12,-Seattle,-WA-98102","1029 Summit Ave E, Apt 12, Seattle, WA 98102",Seattle,WA,98102,47.628349,-122.326485,Apartment,1,1,548,,Active,1895,Standard,2025-11-22T00:00:00.000Z,1
+"8530-A-Nesbit-Ave-N,-Seattle,-WA-98103","8530-A Nesbit Ave N, Seattle, WA 98103",Seattle,WA,98103,47.691574,-122.343163,Townhouse,2,1,913,,Active,1695,Standard,2025-11-22T00:00:00.000Z,1
+"736-Bellevue-Pl-E,-Unit-212,-Seattle,-WA-98102","736 Bellevue Pl E, Unit 212, Seattle, WA 98102",Seattle,WA,98102,47.626171,-122.327576,Apartment,0,1,347,,Active,1162,Standard,2025-11-22T00:00:00.000Z,1
+"3200-16th-Ave-W,-Apt-205,-Seattle,-WA-98119","3200 16th Ave W, Apt 205, Seattle, WA 98119",Seattle,WA,98119,47.648693,-122.376976,Apartment,1,1,750,,Active,1825,Standard,2025-11-22T00:00:00.000Z,1
+"8809-23rd-Ave-NE,-Apt-2,-Seattle,-WA-98115","8809 23rd Ave NE, Apt 2, Seattle, WA 98115",Seattle,WA,98115,47.692402,-122.304451,Townhouse,2,1.5,1200,,Active,2058,Standard,2025-11-22T00:00:00.000Z,1
+"355-15th-Ave,---110,-Seattle,-WA-98122","355 15th Ave, # 110, Seattle, WA 98122",Seattle,WA,98122,47.605873,-122.31311,Apartment,0,1,348,,Active,1375,Standard,2025-11-22T00:00:00.000Z,1
+"2515A-E-Yesler-Way,-Seattle,-WA-98122","2515A E Yesler Way, Seattle, WA 98122",Seattle,WA,98122,47.601532,-122.299263,Townhouse,2,2,1188,,Active,3100,Standard,2025-11-22T00:00:00.000Z,1
+"9504-Ravenna-Ave-NE,-Apt-203,-Seattle,-WA-98115","9504 Ravenna Ave NE, Apt 203, Seattle, WA 98115",Seattle,WA,98115,47.698013,-122.304345,Condo,2,1,941,,Active,2400,Standard,2025-11-22T00:00:00.000Z,1
+"421-Bellevue-Ave-E,-Seattle,-WA-98102","421 Bellevue Ave E, Seattle, WA 98102",Seattle,WA,98102,47.622528,-122.326942,Apartment,1,1,638,1967,Active,1690,Standard,2025-11-22T00:00:00.000Z,1
+"519A-Martin-Luther-King-Jr-Way-S,-Seattle,-WA-98144","519A Martin Luther King Jr Way S, Seattle, WA 98144",Seattle,WA,98144,47.597433,-122.298025,Single Family,2,2,1147,2020,Active,3100,Standard,2025-11-22T00:00:00.000Z,1
+"5121-S-Garden-St,-Seattle,-WA-98118","5121 S Garden St, Seattle, WA 98118",Seattle,WA,98118,47.537449,-122.269359,Single Family,2,2,1500,,Active,2999,Standard,2025-11-22T00:00:00.000Z,1
+"355-15th-Ave,---305MFTE,-Seattle,-WA-98122","355 15th Ave, # 305MFTE, Seattle, WA 98122",Seattle,WA,98122,47.605873,-122.31311,Apartment,1,1,404,,Active,1575,Standard,2025-11-22T00:00:00.000Z,1
+"9006-18th-Ave-SW,-Seattle,-WA-98106","9006 18th Ave SW, Seattle, WA 98106",Seattle,WA,98106,47.522526,-122.357529,Single Family,3,2,1060,,Active,2375,Standard,2025-11-22T00:00:00.000Z,1
+"3028-Western-Ave,-Apt-513,-Seattle,-WA-98121","3028 Western Ave, Apt 513, Seattle, WA 98121",Seattle,WA,98121,47.617828,-122.355461,Single Family,1,1,590,,Active,1995,Standard,2025-11-22T00:00:00.000Z,1
+"469-N-36th-St,-Seattle,-WA-98103","469 N 36th St, Seattle, WA 98103",Seattle,WA,98103,47.651581,-122.352654,Apartment,3,1,1000,,Active,2200,Standard,2025-11-22T00:00:00.000Z,1
+"1806-23rd-Ave,---100,-Seattle,-WA-98122","1806 23rd Ave, # 100, Seattle, WA 98122",Seattle,WA,98122,47.61795,-122.302238,Apartment,0,1,158,,Active,775,Standard,2025-11-22T00:00:00.000Z,1
+"2445A-Nw-63rd-St,-Seattle,-WA-98107","2445A Nw 63rd St, Seattle, WA 98107",Seattle,WA,98107,47.674404,-122.389557,Townhouse,3,2.5,1274,,Active,3495,Standard,2025-11-22T00:00:00.000Z,1
+"3026-Nw-61st-St,-Seattle,-WA-98107","3026 Nw 61st St, Seattle, WA 98107",Seattle,WA,98107,47.673198,-122.396913,Single Family,4,3,3115,1914,Active,5250,Standard,2025-11-22T00:00:00.000Z,1
+"3312-W-Government-Way,-Unit-C,-Seattle,-WA-98199","3312 W Government Way, Unit C, Seattle, WA 98199",Seattle,WA,98199,47.66011,-122.400505,Single Family,3,2.5,1420,,Active,3600,Standard,2025-11-22T00:00:00.000Z,1
+"4508-Corliss-Ave-N-Apt-C,-Seattle,-WA-98103","4508 Corliss Ave N Apt C, Seattle, WA 98103",Seattle,WA,98103,47.661743,-122.330872,Single Family,1,1,600,,Active,1745,Standard,2025-11-22T00:00:00.000Z,1
+"814-Nw-54th-St,-Unit-B,-Seattle,-WA-98107","814 Nw 54th St, Unit B, Seattle, WA 98107",Seattle,WA,98107,47.668224,-122.367003,Single Family,2,2,1020,,Active,3100,Standard,2025-11-22T00:00:00.000Z,1
+"1420-E-Howell-St,-Unit-209,-Seattle,-WA-98122","1420 E Howell St, Unit 209, Seattle, WA 98122",Seattle,WA,98122,47.617779,-122.31324,Apartment,0,1,272,,Active,1295,Standard,2025-11-22T00:00:00.000Z,1
+"511-Ne-73rd-St,-Unit-A,-Seattle,-WA-98115","511 Ne 73rd St, Unit A, Seattle, WA 98115",Seattle,WA,98115,47.681479,-122.322345,Single Family,2,2,1381,,Active,4199,Standard,2025-11-22T00:00:00.000Z,1
+"5019-Ravenna-Ave-NE,-Seattle,-WA-98105","5019 Ravenna Ave NE, Seattle, WA 98105",Seattle,WA,98105,47.665485,-122.303841,Single Family,6,3,1441,,Active,4788,Standard,2025-11-22T00:00:00.000Z,1
+"400-10th-Ave,-Apt-211,-Seattle,-WA-98122","400 10th Ave, Apt 211, Seattle, WA 98122",Seattle,WA,98122,47.605461,-122.319008,Single Family,1,1,510,,Active,1425,Standard,2025-11-22T00:00:00.000Z,1
+"2611-Eastlake-Ave-E,-Seattle,-WA-98102","2611 Eastlake Ave E, Seattle, WA 98102",Seattle,WA,98102,47.643623,-122.326263,Apartment,2,2,983,,Active,2995,Standard,2025-11-22T00:00:00.000Z,1
+"6311-6321-Roosevelt-Way-NE,-Seattle,-WA-98115","6311-6321 Roosevelt Way NE, Seattle, WA 98115",Seattle,WA,98115,47.674835,-122.317657,Apartment,2,1,1455,,Active,2495,Standard,2025-11-22T00:00:00.000Z,1
+"10521-Midvale-Ave-N,-Apt-102,-Seattle,-WA-98133","10521 Midvale Ave N, Apt 102, Seattle, WA 98133",Seattle,WA,98133,47.705673,-122.343796,Single Family,2,1,900,,Active,1600,Standard,2025-11-22T00:00:00.000Z,1
+"2050-Nw-59th-St,-Seattle,-WA-98107","2050 Nw 59th St, Seattle, WA 98107",Seattle,WA,98107,47.671837,-122.3843,Apartment,1,1,650,,Active,1550,Standard,2025-11-22T00:00:00.000Z,1
+"12033-1st-Ave-S,-Seattle,-WA-98168","12033 1st Ave S, Seattle, WA 98168",Seattle,WA,98168,47.495033,-122.334435,Apartment,2,1,883,,Active,1995,Standard,2025-11-22T00:00:00.000Z,1
+"4209-30th-Ave-SW,-Apt-301,-Seattle,-WA-98126","4209 30th Ave SW, Apt 301, Seattle, WA 98126",Seattle,WA,98126,47.56575,-122.371086,Condo,1,1,550,,Active,1395,Standard,2025-11-22T00:00:00.000Z,1
+"700-E-Denny-Way,-Unit-208,-Seattle,-WA-98122","700 E Denny Way, Unit 208, Seattle, WA 98122",Seattle,WA,98122,47.618893,-122.323152,Condo,1,1.5,885,,Active,2500,Standard,2025-11-22T00:00:00.000Z,1
+"2405-Nw-65th-St,-Apt-305,-Seattle,-WA-98117","2405 Nw 65th St, Apt 305, Seattle, WA 98117",Seattle,WA,98117,47.675762,-122.388115,Single Family,2,2,900,,Active,2350,Standard,2025-11-22T00:00:00.000Z,1
+"303-N-44th-St,-Apt-304,-Seattle,-WA-98103","303 N 44th St, Apt 304, Seattle, WA 98103",Seattle,WA,98103,47.660038,-122.355111,Condo,1,1,660,,Active,2495,Standard,2025-11-22T00:00:00.000Z,1
+"9219-Linden-Ave-N-Unit-B,-Seattle,-WA-98103","9219 Linden Ave N Unit B, Seattle, WA 98103",Seattle,WA,98103,47.696314,-122.347467,Townhouse,2,2,1120,,Active,2700,Standard,2025-11-22T00:00:00.000Z,1
+"400-10th-Ave,-Apt-109,-Seattle,-WA-98122","400 10th Ave, Apt 109, Seattle, WA 98122",Seattle,WA,98122,47.605461,-122.319008,Single Family,1,1,,,Active,1395,Standard,2025-11-22T00:00:00.000Z,1
+"301-Nw-62nd-St,-Seattle,-WA-98107","301 Nw 62nd St, Seattle, WA 98107",Seattle,WA,98107,47.674004,-122.361183,Condo,3,2,1210,,Active,2950,Standard,2025-11-22T00:00:00.000Z,1
+"400-10th-Ave,-Apt-311,-Seattle,-WA-98122","400 10th Ave, Apt 311, Seattle, WA 98122",Seattle,WA,98122,47.605461,-122.319008,Single Family,1,1,510,,Active,1450,Standard,2025-11-22T00:00:00.000Z,1
+"118-12th-Ave-E,-Seattle,-WA-98102","118 12th Ave E, Seattle, WA 98102",Seattle,WA,98102,47.619438,-122.316612,Single Family,2,1,850,,Active,2295,Standard,2025-11-22T00:00:00.000Z,1
+"556-1-2-Prospect-St,-Seattle,-WA-98109","556 1/2 Prospect St, Seattle, WA 98109",Seattle,WA,98109,47.629069,-122.345776,Condo,2,2,747,,Active,2645,Standard,2025-11-22T00:00:00.000Z,1
+"1569-Nw-63rd-St,-Seattle,-WA-98107","1569 Nw 63rd St, Seattle, WA 98107",Seattle,WA,98107,47.674412,-122.378677,Single Family,3,2,1050,,Active,3600,Standard,2025-11-22T00:00:00.000Z,1
+"3943-Sw-Rose-St,-Seattle,-WA-98136","3943 Sw Rose St, Seattle, WA 98136",Seattle,WA,98136,47.528969,-122.383833,Single Family,2,1,1330,,Active,2900,Standard,2025-11-22T00:00:00.000Z,1
+"5105-46th-Ave-SW,-Seattle,-WA-98136","5105 46th Ave SW, Seattle, WA 98136",Seattle,WA,98136,47.556193,-122.391489,Single Family,3,1.5,1440,1908,Active,3800,Standard,2025-11-22T00:00:00.000Z,1
+"411-Nw-Market-St,---B,-Seattle,-WA-98107","411 Nw Market St, # B, Seattle, WA 98107",Seattle,WA,98107,47.668344,-122.362561,Townhouse,3,2.5,1520,,Active,3350,Standard,2025-11-22T00:00:00.000Z,1
+"112-22nd-Ave-Unit-B,-Seattle,-WA-98122","112 22nd Ave Unit B, Seattle, WA 98122",Seattle,WA,98122,47.602184,-122.303375,Single Family,2,1,858,,Active,2600,Standard,2025-11-22T00:00:00.000Z,1
+"1803-N-88th-St,-Seattle,-WA-98103","1803 N 88th St, Seattle, WA 98103",Seattle,WA,98103,47.692147,-122.336199,Single Family,4,3,2280,,Active,4500,Standard,2025-11-22T00:00:00.000Z,1
+"312-N-115th-St,-Seattle,-WA-98133","312 N 115th St, Seattle, WA 98133",Seattle,WA,98133,47.712508,-122.354865,Single Family,3,2,1350,2016,Active,3395,Standard,2025-11-22T00:00:00.000Z,1
+"2423-11th-Ave-E,-Seattle,-WA-98102","2423 11th Ave E, Seattle, WA 98102",Seattle,WA,98102,47.642136,-122.318304,Single Family,4,3,3500,,Active,5000,Standard,2025-11-22T00:00:00.000Z,1
+"7532-21st-Ave-NE,-Seattle,-WA-98115","7532 21st Ave NE, Seattle, WA 98115",Seattle,WA,98115,47.684076,-122.304813,Single Family,3,2,1870,,Active,5000,Standard,2025-11-22T00:00:00.000Z,1
+"10329-Meridian-Ave-N,-Unit-A201,-Seattle,-WA-98133","10329 Meridian Ave N, Unit A201, Seattle, WA 98133",Seattle,WA,98133,47.70413,-122.334559,Single Family,2,2,892,1984,Active,2100,Standard,2025-11-22T00:00:00.000Z,1
+"13725-32nd-Ave-NE,-Seattle,-WA-98125","13725 32nd Ave NE, Seattle, WA 98125",Seattle,WA,98125,47.729018,-122.294744,Apartment,1,1,598,1990,Active,1270,Standard,2025-11-22T00:00:00.000Z,1
+"5614-28th-Ave-NW,-Seattle,-WA-98107","5614 28th Ave NW, Seattle, WA 98107",Seattle,WA,98107,47.669889,-122.392598,Townhouse,2,1.5,1070,,Active,2695,Standard,2025-11-22T00:00:00.000Z,1
+"301-W-Raye-St,-Apt-103,-Seattle,-WA-98119","301 W Raye St, Apt 103, Seattle, WA 98119",Seattle,WA,98119,47.64289,-122.361315,Apartment,2,1,754,1987,Active,2585,Standard,2025-11-22T00:00:00.000Z,1
+"1801-S-Walker-St,-Seattle,-WA-98144","1801 S Walker St, Seattle, WA 98144",Seattle,WA,98144,47.583528,-122.309096,Single Family,1,1,111,,Active,795,Standard,2025-11-22T00:00:00.000Z,1
+"3615-Gilman-Ave-W,-Seattle,-WA-98199","3615 Gilman Ave W, Seattle, WA 98199",Seattle,WA,98199,47.652622,-122.383888,Single Family,3,1.5,1307,2004,Active,2950,Standard,2025-11-22T00:00:00.000Z,1
+"12334-31st-Ave-NE,-Apt-510,-Seattle,-WA-98125","12334 31st Ave NE, Apt 510, Seattle, WA 98125",Seattle,WA,98125,47.71825,-122.294805,Condo,1,1,442,,Active,1195,Standard,2025-11-22T00:00:00.000Z,1
+"315-N-Greenwood-Cir,-Seattle,-WA-98103","315 N Greenwood Cir, Seattle, WA 98103",Seattle,WA,98103,47.700186,-122.354485,Single Family,5,2.5,2130,,Active,4250,Standard,2025-11-22T00:00:00.000Z,1
+"4239-8th-Ave-NE,-Seattle,-WA-98105","4239 8th Ave NE, Seattle, WA 98105",Seattle,WA,98105,47.658695,-122.32011,Apartment,0,1,241,2021,Active,1499,Standard,2025-11-22T00:00:00.000Z,1
+"1711-E-Olive-Way,-Apt-109,-Seattle,-WA-98102","1711 E Olive Way, Apt 109, Seattle, WA 98102",Seattle,WA,98102,47.619521,-122.323161,Condo,2,2,974,,Active,3800,Standard,2025-11-22T00:00:00.000Z,1
+"7735-S-Mission-Dr,-Seattle,-WA-98178","7735 S Mission Dr, Seattle, WA 98178",Seattle,WA,98178,47.503361,-122.236533,Single Family,5,2,2670,,Active,3740,Standard,2025-11-22T00:00:00.000Z,1
+"323-Queen-Anne-Ave-N,-Apt-610,-Seattle,-WA-98109","323 Queen Anne Ave N, Apt 610, Seattle, WA 98109",Seattle,WA,98109,47.621608,-122.35711,Condo,1,1,510,1983,Active,1795,Standard,2025-11-22T00:00:00.000Z,1
+"3236-Sw-Avalon-Way,-Seattle,-WA-98126","3236 Sw Avalon Way, Seattle, WA 98126",Seattle,WA,98126,47.56435,-122.374001,Apartment,1,1,587,1991,Active,1725,Standard,2025-11-22T00:00:00.000Z,1
+"4140-38th-Ave-S,-Seattle,-WA-98118","4140 38th Ave S, Seattle, WA 98118",Seattle,WA,98118,47.564988,-122.284667,Single Family,4,2,1700,,Active,3750,Standard,2025-11-22T00:00:00.000Z,1
+"9046-9th-Ave-SW,-Seattle,-WA-98106","9046 9th Ave SW, Seattle, WA 98106",Seattle,WA,98106,47.52144,-122.346263,Single Family,2,1,1480,,Active,2700,Standard,2025-11-22T00:00:00.000Z,1
+"2644-Sw-112th-St,-Seattle,-WA-98146","2644 Sw 112th St, Seattle, WA 98146",Seattle,WA,98146,47.503061,-122.367455,Single Family,4,3,1780,,Active,3700,Standard,2025-11-22T00:00:00.000Z,1
+"4423-Phinney-Ave-N-Apt-A,-Seattle,-WA-98103","4423 Phinney Ave N Apt A, Seattle, WA 98103",Seattle,WA,98103,47.660887,-122.354568,Single Family,3,3.5,2010,1999,Active,4500,Standard,2025-11-22T00:00:00.000Z,1
+"3411-Nw-Market-St,-Seattle,-WA-98107","3411 Nw Market St, Seattle, WA 98107",Seattle,WA,98107,47.668346,-122.401773,Single Family,2,1,832,,Active,1750,Standard,2025-11-22T00:00:00.000Z,1
+"4235-Brooklyn-Ave-NE,-Apt-101,-Seattle,-WA-98105","4235 Brooklyn Ave NE, Apt 101, Seattle, WA 98105",Seattle,WA,98105,47.659402,-122.314686,Condo,1,1,544,,Active,1595,Standard,2025-11-22T00:00:00.000Z,1
+"4751-21st-Ave-NE,-Seattle,-WA-98105","4751 21st Ave NE, Seattle, WA 98105",Seattle,WA,98105,47.664532,-122.305825,Apartment,0,1,250,,Active,1245,Standard,2025-11-22T00:00:00.000Z,1
+"4020-Linden-Ave-N,-Seattle,-WA-98103","4020 Linden Ave N, Seattle, WA 98103",Seattle,WA,98103,47.656096,-122.348045,Single Family,2,3,1890,,Active,4190,Standard,2025-11-22T00:00:00.000Z,1
+"1206-Queen-Anne-Ave-N,-Seattle,-WA-98109","1206 Queen Anne Ave N, Seattle, WA 98109",Seattle,WA,98109,47.629832,-122.356282,Apartment,1,1,671,1948,Active,1575,Standard,2025-11-22T00:00:00.000Z,1
+"4746-20th-Ave-NE,-Seattle,-WA-98105","4746 20th Ave NE, Seattle, WA 98105",Seattle,WA,98105,47.664418,-122.306184,Apartment,0,1,250,2023,Active,1250,Standard,2025-11-22T00:00:00.000Z,1
+"5440-Leary-Ave-NW,-Unit-211,-Seattle,-WA-98107","5440 Leary Ave NW, Unit 211, Seattle, WA 98107",Seattle,WA,98107,47.667498,-122.382567,Single Family,1,1,833,,Active,2850,Standard,2025-11-22T00:00:00.000Z,1
+"819-Virginia-St,-Unit-2807,-Seattle,-WA-98101","819 Virginia St, Unit 2807, Seattle, WA 98101",Seattle,WA,98101,47.616026,-122.335701,Condo,2,2,1236,,Active,3995,Standard,2025-11-22T00:00:00.000Z,1

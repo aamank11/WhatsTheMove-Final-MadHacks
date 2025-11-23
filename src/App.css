@@ -1,0 +1,172 @@
+/* src/App.css */
+
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background: #020617;
+  color: #f9fafb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.screen {
+  width: 100%;
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 2.5rem 3rem;
+  border-radius: 1.5rem;
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  box-shadow: 0 25px 50px rgba(15, 23, 42, 0.7);
+}
+
+.landing-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.landing-subtitle,
+.screen-subtitle {
+  margin-top: 0.75rem;
+  max-width: 38rem;
+  color: #cbd5f5;
+  font-size: 0.95rem;
+}
+
+.landing-actions {
+  margin-top: 2.5rem;
+}
+
+.landing-caption {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.form-grid {
+  margin-top: 1.75rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.form-row label {
+  font-size: 0.85rem;
+  color: #e5e7eb;
+}
+
+input,
+select {
+  padding: 0.7rem 0.85rem;
+  border-radius: 0.75rem;
+  border: 1px solid #4b5563;
+  background: #020617;
+  color: #f9fafb;
+  font-size: 0.9rem;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #f97316;
+  box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.5);
+}
+
+.primary-btn {
+  padding: 0.8rem 1.6rem;
+  border-radius: 999px;
+  border: none;
+  font-weight: 600;
+  background: linear-gradient(135deg, #f97316, #facc15);
+  color: #0f172a;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.primary-btn:hover {
+  filter: brightness(1.05);
+}
+
+.secondary-btn,
+.ghost-btn {
+  padding: 0.75rem 1.4rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.8);
+  background: transparent;
+  color: #e5e7eb;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  margin-right: 0.75rem;
+}
+
+.secondary-btn:hover,
+.ghost-btn:hover {
+  background: rgba(15, 23, 42, 0.8);
+}
+
+.results-context {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #e5e7eb;
+}
+
+.results-grid {
+  margin-top: 1.75rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.result-card {
+  padding: 1rem 1.1rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  background: rgba(15, 23, 42, 0.9);
+}
+
+.result-label {
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.result-amount {
+  margin-top: 0.3rem;
+  display: block;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.results-total {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px dashed rgba(75, 85, 99, 0.9);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.results-total span {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.results-total strong {
+  font-size: 1.4rem;
+}
+
+.results-actions,
+.form-actions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
