@@ -29,7 +29,8 @@ app.add_middleware(
         "https://whatsthemove.com",
         "https://whatsthemove-final-madhacks.fly.dev/",
         "https://whatsthemove-final-madhacks.fly.dev",
-        "http://localhost:5175"
+        "http://localhost:5175",
+        "https://aamank11.github.io/WhatsTheMove-Final-MadHacks/"
     ],
     allow_credentials=True,
     allow_methods=["*"],
