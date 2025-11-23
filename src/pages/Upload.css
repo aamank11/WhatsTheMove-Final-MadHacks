@@ -4,10 +4,9 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: radial-gradient(circle at top left, #141927, #05060a);
-    color: #f9fafb;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      sans-serif;
+    background: #f9fafb;
+    color: black;
+    font-family: "Mona Sans";
   }
   
   /* Hero section */
@@ -43,11 +42,11 @@
   .upload-card {
     width: 100%;
     max-width: 720px;
-    background: rgba(15, 23, 42, 0.9);
+    background: #f9fafb;
     border-radius: 18px;
-    border: 1px solid rgba(148, 163, 184, 0.3);
+    border: 1px solid black;
     padding: 1.75rem 1.5rem 1.5rem;
-    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.7);
+    box-shadow: 11px 11px 0 black;
   }
   
   /* Form */
@@ -62,13 +61,12 @@
   
   .upload-input {
     width: 100%;
-    padding: 0.8rem 0.9rem;
-    border-radius: 999px;
-    border: 1px solid rgba(148, 163, 184, 0.5);
-    background: rgba(15, 23, 42, 0.8);
-    color: #e5e7eb;
-    font-size: 0.95rem;
-    outline: none;
+    background-color: #f9fafb;
+    border-radius: 18px;
+    border: 1px solid black;
+    padding: 1rem 1rem 1rem;
+    box-shadow: 11px 11px 0 black;
+    margin-bottom: 25px;
   }
   
   .upload-input::placeholder {
@@ -76,23 +74,22 @@
   }
   
   .upload-input:focus {
-    border-color: #f97316;
-    box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.3);
+    width: 100%;
+    background-color: #f9fafb;
+    border-radius: 18px;
+    border: 1px solid black;
+    padding: 1rem 1rem 1rem;
+    box-shadow: 7px 7px 0 black;
+    margin-bottom: 25px;
   }
   
   .upload-submit-btn {
-    margin-top: 0.9rem;
     width: 100%;
-    padding: 0.9rem 1rem;
-    border-radius: 999px;
-    border: none;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 0.95rem;
-    background: linear-gradient(135deg, #f97316, #facc15);
-    color: #111827;
-    transition: transform 0.08s ease, box-shadow 0.08s ease,
-      filter 0.08s ease;
+    background-color: #f9fafb;
+    border-radius: 18px;
+    border: 1px solid black;
+    padding: 1rem 1rem 1rem;
+    box-shadow: 11px 11px 0 black;
   }
   
   .upload-submit-btn:disabled {
@@ -100,10 +97,13 @@
     cursor: default;
   }
   
-  .upload-submit-btn:not(:disabled):hover {
-    filter: brightness(1.03);
-    box-shadow: 0 12px 30px rgba(249, 115, 22, 0.5);
-    transform: translateY(-1px);
+  .upload-submit-btn:hover {
+    width: 100%;
+    background-color: #f9fafb;
+    border-radius: 18px;
+    border: 1px solid black;
+    padding: 1rem 1rem 1rem;
+    box-shadow: 7px 7px 0 black;
   }
   
   /* Error */
@@ -135,12 +135,12 @@
   
   .upload-result-line {
     font-size: 0.9rem;
-    color: #e5e7eb;
+    color: black;
     margin: 0.15rem 0;
   }
   
   .upload-result-label {
-    color: #9ca3af;
+    color: black;
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -149,7 +149,7 @@
   .upload-result-summary {
     margin-top: 0.7rem;
     font-size: 0.88rem;
-    color: #d1d5db;
+    color: black;
   }
   
   /* Next actions */
@@ -159,16 +159,20 @@
   
   .upload-continue-btn {
     width: 100%;
-    padding: 0.9rem 1rem;
-    border-radius: 999px;
-    border: 1px solid rgba(148, 163, 184, 0.7);
-    background: transparent;
-    color: #e5e7eb;
-    font-weight: 500;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: background 0.1s ease, border-color 0.1s ease,
-      transform 0.08s ease, box-shadow 0.08s ease;
+    background-color: #f9fafb;
+    border-radius: 18px;
+    border: 1px solid black;
+    padding: 1rem 1rem 1rem;
+    box-shadow: 11px 11px 0 black;
+  }
+
+  .upload-continue-btn:hover {
+    width: 100%;
+    background-color: #f9fafb;
+    border-radius: 18px;
+    border: 1px solid black;
+    padding: 1rem 1rem 1rem;
+    box-shadow: 8px 8px 0 black;
   }
   
   .upload-continue-btn:disabled {
@@ -176,16 +180,7 @@
     cursor: default;
   }
   
-  .upload-continue-btn:not(:disabled):hover {
-    background: rgba(15, 23, 42, 0.9);
-    border-color: #f97316;
-    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.7);
-    transform: translateY(-1px);
-  }
-  
   .upload-note {
-    margin-top: 0.5rem;
-    font-size: 0.8rem;
-    color: #9ca3af;
+    font-size: 0;
   }
   

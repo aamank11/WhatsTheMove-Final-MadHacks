@@ -2,8 +2,30 @@
 .results-page {
   background: #fdf9f3;
   min-height: 100vh;
-  color: #111827;
+  color: #000000;
+  width: 100%;
+  font-family: "Mona Sans";
 }
+
+
+.screen {
+  width: 100%;
+  max-width: 2000px;
+  background-color: #fdf9f3;
+  box-shadow: none;
+  margin: 0;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-radius: 0;
+  
+}
+
+.app-root {
+  width: 100%;
+  background-color: #fdf9f3;
+}
+
+
 
 /* Top bar (matches landing style) */
 .results-topbar {
@@ -40,12 +62,6 @@
   font-weight: 600;
 }
 
-/* Main layout */
-.results-main {
-  max-width: 960px;
-  margin: 2.5rem auto 3.5rem;
-  padding: 0 1.75rem 3rem;
-}
 
 .results-header {
   text-align: left;
@@ -357,6 +373,35 @@
 
 .results-save-btn {
   border-radius: 999px;
+}
+
+button{
+  color: black;
+}
+
+.secondary-btn, .ghost-btn, .primary-btn{
+  padding: 0.75rem 1.4rem;
+  border-radius: 999px;
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 6px 6px 0 #000000;
+}
+
+.secondary-btn:hover, .ghost-btn:hover, .primary-btn:hover{
+  padding: 0.75rem 1.4rem;
+  border-radius: 999px;
+  border: 1px solid black;
+  background: #e6e3dd;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 #000000;
+  transition-duration: .2s;
 }
 
 /* Responsive tweaks */

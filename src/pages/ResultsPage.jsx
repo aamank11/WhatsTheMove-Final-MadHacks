@@ -211,7 +211,7 @@ function computeTravelFallback(formData, miles) {
 }
 
 // For UI only – show all vehicle types when rental-car chosen
-function computeRentalVehicleBreakdown(miles) {
+function computeRentalVehicleBreakdown(miles, formData) {
   if (!miles || miles <= 0) return null;
 
   const types = ["car", "minivan", "suv", "truck", "van"];
@@ -219,10 +219,14 @@ function computeRentalVehicleBreakdown(miles) {
   return types.map((type) => {
     const fuel = RENTAL_MODEL.FuelPerMile[type] || 0;
     const maint = RENTAL_MODEL.MaintenancePerMile[type] || 0;
-    const cpm = fuel + maint;
+    const dailyRental = RENTAL_MODEL.DailyRental[type] || 0;
+    
+    const mileageCost = miles * (fuel + maint);
+    const totalCost = dailyRental + mileageCost;
+    
     return {
       type,
-      cost: Math.round(miles * cpm),
+      cost: Math.round(totalCost),
     };
   });
 }
@@ -669,7 +673,7 @@ function ResultsPage({ formData, onBack, onRestart }) {
   // Rental car breakdown for UI
   const rentalBreakdown =
     formData.transportPlan === "rental-car" && miles
-      ? computeRentalVehicleBreakdown(miles)
+      ? computeRentalVehicleBreakdown(miles, formData)
       : null;
 
   // Apply user selections to get final category amounts

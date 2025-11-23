@@ -99,7 +99,7 @@
   
   /* Centered pill button under the headline */
   .landing-hero-pill {
-    margin-top: 2.25rem;
+    margin-top: 7.25rem;
     padding: 0.65rem 1.8rem;
     border-radius: 999px;
     border: 2px solid #000000;
@@ -108,6 +108,7 @@
     font-weight: 500;
     cursor: pointer;
     box-shadow: 0 10px 0 rgba(0, 0, 0, 0.8);
+    z-index: 1000;
   }
   
   /* ---------- Search card ---------- */
@@ -130,6 +131,7 @@
     display: flex;
     align-items: stretch;
     gap: 1.75rem;
+    z-index: 500;
   }
   
   .landing-search-fields {
@@ -199,10 +201,12 @@
     font-size: 0.9rem;
     font-weight: 400;
     cursor: pointer;
-    display: inline-flex;
+    /* change this: */
+    display: flex;          /* or block */
     align-items: center;
     gap: 0.25rem;
   }
+  
   
   .landing-upload-strong {
     font-weight: 600;

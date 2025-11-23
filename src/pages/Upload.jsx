@@ -125,7 +125,7 @@ function Upload({ formData, onChange, onContinue }) {
 
           {result && result.is_valid_job_posting && (
             <div className="upload-result">
-              <h2 className="upload-result-heading">We found your job 🎉</h2>
+              <h2 className="upload-result-heading">We found your job!</h2>
               <p className="upload-result-main">
                 <strong>{result.job_title}</strong>{" "}
                 {result.company_name && `at ${result.company_name}`}
