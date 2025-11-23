@@ -18,6 +18,18 @@ class AirModel:
     @param csv_path Path to DB1B ticket CSV.
     """
 
+    # Carrier code -> human readable name (top 8)
+    carrier_names = {
+        "HA": "Hawaiian Airlines",
+        "WN": "Southwest Airlines",
+        "AS": "Alaska Airlines",
+        "UA": "United Airlines",
+        "B6": "JetBlue Airways",
+        "DL": "Delta Air Lines",
+        "AA": "American Airlines",
+        "F9": "Frontier Airlines",
+    }
+
     def __init__(self, csv_path: str = "T_DB1B_TICKET.csv"):
         """
         Load CSV, clean DB1B data, and compute all multipliers.
@@ -47,7 +59,8 @@ class AirModel:
         self.df = df
 
         # Compute Base CPM (dollars per mile)
-        self.base_cpm = self.df["ITIN_YIELD"].median() / 100.0
+        # NOTE: ITIN_YIELD is already fare per mile; do NOT divide by 100.
+        self.base_cpm = self.df["ITIN_YIELD"].median()
         print("BaseCPM:", self.base_cpm)
 
         # Carrier multipliers (all carriers first)
@@ -61,7 +74,7 @@ class AirModel:
         )
 
         self.top_8_carriers = list(carrier_counts.head(8).index)
-        # print("Top 8 carriers by passengers: ", self.top_8_carriers)
+        print("Top 8 carriers by passengers: ", self.top_8_carriers)
 
         # Filter carrier_mult to only top 8
         self.carrier_mult = {}
@@ -86,10 +99,12 @@ class AirModel:
             # "OriginMarketMultiplier": origin_market_mult
         }
 
-        # Show multipliers
-        """for k, v in self.multipliers.items():
+        # Show multipliers (optional)
+        """
+        for k, v in self.multipliers.items():
             print("\n---", k, "---")
-            print(v)"""
+            print(v)
+        """
 
     def make_multiplier(self, field_name: str) -> dict:
         """
@@ -116,10 +131,45 @@ class AirModel:
             "RoundTripMultiplier": dict(self.roundtrip_mult),
         }
 
+    def price_for_distance(self, distance: float) -> dict:
+        """
+        Estimate price for a given distance for each of the top 8 carriers.
+
+        @param distance Distance in miles.
+        @return Dict mapping carrier_name -> estimated price in dollars.
+        """
+
+        # Determine distance group (1–25) from distance in miles (500-mile bins)
+        # Example: 1–500 -> 1, 501–1000 -> 2, etc.
+        distance_group = int((max(distance, 1) - 1) // 500) + 1
+
+        # Get multiplier for that distance group (default to 1.0 if missing)
+        dist_mult_val = self.dist_mult.get(distance_group, 1.0)
+
+        results = {}
+
+        for carrier in self.top_8_carriers:
+            carrier_name = self.carrier_names.get(carrier, carrier)
+            carrier_mult_val = self.carrier_mult.get(carrier, 1.0)
+
+            # Basic fare estimate: miles * base_cpm * distance_mult * carrier_mult
+            price = distance * self.base_cpm * dist_mult_val * carrier_mult_val
+
+            results[carrier_name] = price
+
+        return results
+
 
 # Runs only once per process:
 air_model = AirModel()
+
 if __name__ == "__main__":
+    # Example: estimate prices for a 200-mile flight for each top-8 carrier
+    prices = air_model.price_for_distance(200)
+    for name, price in prices.items():
+        print(f"{name}: ${price:.2f}")
+
+    print()
     # When run directly, just print out the multipliers.
     print("\nMultipliers from AirModel (via getter):")
     print(air_model.get_all_multipliers())

@@ -29,6 +29,7 @@ app.add_middleware(
         "https://whatsthemove.com",
         "https://whatsthemove-final-madhacks.fly.dev/",
         "https://whatsthemove-final-madhacks.fly.dev",
+        "http://localhost:5175"
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -37,12 +38,31 @@ app.add_middleware(
 
 # ---------- Constants / helpers ----------
 
-CITY_SLUG_MAP = {
-    "madisonwi": "Madison, WI",
-    "seattlewa": "Seattle, WA",
-    "neenahwi": "Neenah, WI",
-    # add more as you support them
-}
+def build_city_slug_map() -> dict[str, str]:
+    """
+    Build a map like:
+      "madisonwi" -> "Madison, WI"
+      "seattlewa" -> "Seattle, WA"
+    from a list of canonical city names.
+    """
+    city_names = [
+        "Madison, WI",
+        "Seattle, WA",
+        "Neenah, WI",
+        # add more here
+    ]
+
+    mapping: dict[str, str] = {}
+    for full in city_names:
+        city, state = [part.strip() for part in full.split(",")]
+        # "Madison, WI" -> "madisonwi"
+        slug = f"{city.lower().replace(' ', '')}{state.lower()}"
+        mapping[slug] = full
+    return mapping
+
+
+CITY_SLUG_MAP = build_city_slug_map()
+
 
 MONTH_NAME_TO_NUM = {
     "january": 1,
