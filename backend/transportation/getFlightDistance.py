@@ -3,7 +3,7 @@
 import csv
 from geopy import distance
 import os
-import distanceHelper
+from . import distanceHelper
 
 # CSV parameters
 airport_city_name_col = 2

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+httpx
+pydantic
+beautifulsoup4
+requests
+pandas
+openai
+selenium
+geopy

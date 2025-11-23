@@ -1,3 +1,5 @@
+# backend/job_inspection/job_inspect_llm.py
+
 import os
 import json
 import textwrap
@@ -5,12 +7,23 @@ import requests
 from bs4 import BeautifulSoup
 from openai import OpenAI
 
-OPENAI_API_KEY = "open ai key"
+
+# ------------ CONFIG ------------
+
+def _get_openai_client() -> OpenAI:
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        raise RuntimeError(
+            "OPENAI_API_KEY environment variable is not set. "
+            "Set it locally and via `flyctl secrets set OPENAI_API_KEY=...`."
+        )
+    return OpenAI(api_key=api_key)
+
 
 # ------------ LLM CALL ------------
 
 def call_llm_for_job_analysis(page_text: str, url: str) -> dict:
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    client = _get_openai_client()
 
     system_prompt = """
 You are a job posting analysis assistant.
@@ -74,6 +87,7 @@ Rules:
 - Remember: respond with JSON only.
 """.strip()
 
+    # Using Chat Completions; model name can be gpt-4.1-mini or gpt-4o-mini depending on your account
     response = client.chat.completions.create(
         model="gpt-4.1-mini",
         messages=[
@@ -92,6 +106,7 @@ Rules:
 
     return data
 
+
 def analyze_job_url(url: str) -> dict:
     """
     High-level helper for backend usage.
@@ -102,23 +117,23 @@ def analyze_job_url(url: str) -> dict:
     return result
 
 
-# Extract Text
+# ------------ HTML FETCH / TEXT EXTRACTION ------------
 
 def fetch_page_text(url: str, max_chars: int = 12000) -> str:
     headers = {
-        "User-Agent": "Mozilla/5.0 (WhatsTheMoove Job Inspector)"
+        "User-Agent": "Mozilla/5.0 (WhatsTheMove Job Inspector)"
     }
     resp = requests.get(url, timeout=10, headers=headers)
     resp.raise_for_status()
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # Optionally strip script/style
+    # Strip script/style/noscript
     for tag in soup(["script", "style", "noscript"]):
         tag.decompose()
 
     text = soup.get_text(separator="\n")
-    # Collapse super-long whitespace a bit
+    # Collapse whitespace
     text = "\n".join(
         line.strip()
         for line in text.splitlines()
@@ -128,7 +143,8 @@ def fetch_page_text(url: str, max_chars: int = 12000) -> str:
     return text[:max_chars]
 
 
-# print results in a pretty way
+# ------------ (Optional) CLI for local debugging ------------
+
 def pretty_print_result(result: dict) -> None:
     print("\n================= JOB ANALYSIS RESULT =================\n")
 
@@ -180,9 +196,8 @@ def pretty_print_result(result: dict) -> None:
     print(json.dumps(result, indent=2))
 
 
-# Main
 def main():
-    print("=== WhatsTheMoove Job Posting Inspector (Terminal Version) ===")
+    print("=== WhatsTheMove Job Posting Inspector (Terminal Version) ===")
     url = input("Paste a job posting URL and press Enter:\n> ").strip()
 
     if not url:

@@ -438,7 +438,7 @@ if __name__ == "__main__":
             job_info = None
 
     # 2) For now, still use a hard-coded path example
-    example_path = "whatsthemove/madisonwi/seattlewa/june/august/01000011/1500"
+    example_path = "whatsthemove.com/madisonwi/seattlewa/june/august/01000011/1500"
     req = parse_move_request_from_path(example_path)
 
     move_plan = build_move_plan(req, job_info=job_info)
