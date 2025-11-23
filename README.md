@@ -190,4 +190,6 @@ To keep things Fly.io-friendly (no headless Chrome):
 
 ---
 
-## Together, they provide a fast, opinionated “snapshot” of what relocating for a given job might look like—costs, distance, housing, and potential red flags—all in one place.
+Together, they provide a fast, “snapshot” of what relocating for a given job might look like—costs, distance, housing, and potential red flags—all in one place.
+
+## You land the J*b, we'll do the rest!
