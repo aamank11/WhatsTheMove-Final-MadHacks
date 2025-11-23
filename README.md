@@ -1,4 +1,4 @@
-# WhatsTheMove – Architecture Overview
+# WhatsTheMove – You land the J*b, we'll do the rest!
 
 WhatsTheMove is a web app that helps students and early-career professionals plan a move for internships, co-ops, or new jobs. It combines:
 
