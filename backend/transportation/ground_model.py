@@ -18,7 +18,7 @@ class GroundModel:
     @param csv_path Path to rental car CSV with 'vehicle.type' and 'rate.daily'.
     """
 
-    def __init__(self, csv_path: str = "CarRentalData.csv"):
+    def __init__(self, csv_path: str = "backend/transportation/datasets/CarRentalData.csv"):
         """Load CSV and precompute median daily rate and other cost data."""
         self.daily_rate_by_type = {}
 
