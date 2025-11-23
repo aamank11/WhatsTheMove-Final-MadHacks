@@ -18,7 +18,7 @@ class AirModel:
     @param csv_path Path to DB1B ticket CSV.
     """
 
-    # Carrier code -> human readable name (top 8)
+    # Carrier code, human readable name (top 8)
     carrier_names = {
         "HA": "Hawaiian Airlines",
         "WN": "Southwest Airlines",
@@ -131,31 +131,45 @@ class AirModel:
             "RoundTripMultiplier": dict(self.roundtrip_mult),
         }
 
-    def price_for_distance(self, distance: float) -> dict:
+    def price_for_distance(self, max_distance: int = 6000) -> dict:
         """
-        Estimate price for a given distance for each of the top 8 carriers.
+        Estimate price-per-mile multipliers for 500-mile distance bands
+        for each of the top 8 carriers, up to max_distance miles.
 
-        @param distance Distance in miles.
-        @return Dict mapping carrier_name -> estimated price in dollars.
+        Bands:
+          0-499, 500-999, 1000-1499, ..., up to covering max_distance.
+
+        @param max_distance Maximum distance in miles (e.g. 6000).
+        @return Dict mapping distance_range_str -> {carrier_name: multiplier}.
         """
 
-        # Determine distance group (1–25) from distance in miles (500-mile bins)
-        # Example: 1–500 -> 1, 501–1000 -> 2, etc.
-        distance_group = int((max(distance, 1) - 1) // 500) + 1
-
-        # Get multiplier for that distance group (default to 1.0 if missing)
-        dist_mult_val = self.dist_mult.get(distance_group, 1.0)
+        # Number of 500-mile groups needed to cover max_distance
+        # e.g. 6000 -> 12 groups (0-499 ... 5500-5999)
+        num_groups = max(1, int((max_distance - 1) // 500) + 1)
 
         results = {}
 
-        for carrier in self.top_8_carriers:
-            carrier_name = self.carrier_names.get(carrier, carrier)
-            carrier_mult_val = self.carrier_mult.get(carrier, 1.0)
+        for group in range(1, num_groups + 1):
+            # Compute label like "0-499", "500-999", ...
+            low = (group - 1) * 500
+            high = group * 500 - 1
+            range_label = f"{low}-{high}"
 
-            # Basic fare estimate: miles * base_cpm * distance_mult * carrier_mult
-            price = distance * self.base_cpm * dist_mult_val * carrier_mult_val
+            # Get multiplier for that distance group (default to 1.0 if missing)
+            dist_mult_val = self.dist_mult.get(group, 1.0)
 
-            results[carrier_name] = price
+            carrier_results = {}
+
+            for carrier in self.top_8_carriers:
+                carrier_name = self.carrier_names.get(carrier, carrier)
+                carrier_mult_val = self.carrier_mult.get(carrier, 1.0)
+
+                # Basic per-mile estimate: base_cpm * distance_mult * carrier_mult
+                multiplier = self.base_cpm * dist_mult_val * carrier_mult_val
+
+                carrier_results[carrier_name] = multiplier
+
+            results[range_label] = carrier_results
 
         return results
 
@@ -164,25 +178,22 @@ class AirModel:
 air_model = AirModel()
 
 if __name__ == "__main__":
-    # Example: estimate prices for a 200-mile flight for each top-8 carrier
-    prices = air_model.price_for_distance(200)
-    for name, price in prices.items():
-        print(f"{name}: ${price:.2f}")
+    # Compute multipliers for distance bands up to 6000 miles
+    prices_by_band = air_model.price_for_distance(max_distance=6000)
 
-    print()
-    # When run directly, just print out the multipliers.
-    print("\nMultipliers from AirModel (via getter):")
-    print(air_model.get_all_multipliers())
+    # Flatten into rows for CSV
+    rows = []
+    for band_label, carrier_dict in prices_by_band.items():
+        for carrier_name, mult in carrier_dict.items():
+            rows.append({
+                "distance_band": band_label,   # e.g. "0-499"
+                "carrier": carrier_name,       # e.g. "Delta Air Lines"
+                "multiplier": mult             # price-per-mile multiplier
+            })
 
-# Output:
-# Standard value
-# {'BaseCPM': 0.1179,
-#'
-# Multiplier for different carriers
-# CarrierMultiplier': {'HA': 1.0059372349448685, 'WN': 0.917726887192536, 'AS': 1.1467345207803221, 'UA': 1.0008481764206953, 'B6': 1.2646310432569976, 'DL': 1.0559796437659033, 'AA': 1.0212044105173874, 'F9': 0.5945716709075487},
+    df = pd.DataFrame(rows)
 
-# Distance divided by 500 gives key of 1 or 2 or 3, won't use all
-# 'DistanceGroupMultiplier': {1: 6.076759966072943, 2: 3.7714164546225613, 3: 1.5742154368108565, 4: 1.3129770992366412, 5: 1.0576759966072944, 6: 1.0161153519932147, 7: 1.1051738761662426, 8: 0.9211195928753181, 9: 0.912637828668363, 10: 0.8846480067854113, 11: 0.8668363019508057, 12: 0.9677692960135708, 13: 0.833757421543681, 14: 0.9185750636132315, 15: 0.7913486005089058, 16: 0.8354537743850721, 17: 0.8524173027989822, 18: 0.7319762510602205, 19: 0.7913486005089058, 20: 0.7489397794741306, 21: 0.6361323155216284, 22: 0.6318914334181509, 23: 0.6497031382527566, 24: 0.7845631891433418, 25: 1.391857506361323},
+    # Write to CSV
+    df.to_csv("air_price_multipliers_by_band.csv", index=False)
 
-# Round trip (1) or not (0)
-# 'RoundTripMultiplier': {0.0: 0.991518235793045, 1.0: 1.0059372349448685}}
+    print("Saved CSV to air_price_multipliers_by_band.csv")
