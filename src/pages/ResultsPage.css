@@ -1,45 +1,381 @@
-/* src/pages/ResultsPage.css */
+/* Overall page */
+.results-page {
+  background: #fdf9f3;
+  min-height: 100vh;
+  color: #111827;
+}
 
-.results-screen {
-    /* just adds a bit more spacing on this page */
-    padding-bottom: 3rem;
-  }
-  
-  .results-map-card {
+/* Top bar (matches landing style) */
+.results-topbar {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #000000;
+}
+
+.results-topbar-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0.75rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.results-logo-pill {
+  padding: 0.4rem 1.4rem;
+  border-radius: 999px;
+  border: 2px solid #000000;
+  background: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.results-topbar-text {
+  flex: 1;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.results-topbar-brand {
+  font-weight: 600;
+}
+
+/* Main layout */
+.results-main {
+  max-width: 960px;
+  margin: 2.5rem auto 3.5rem;
+  padding: 0 1.75rem 3rem;
+}
+
+.results-header {
+  text-align: left;
+  margin-bottom: 1.8rem;
+}
+
+.results-header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.results-header p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* Shared card style (big white pill with shadow) */
+.results-card {
+  margin-top: 1.75rem;
+  background: #ffffff;
+  border-radius: 32px;
+  border: 2px solid #000000;
+  box-shadow: 10px 10px 0 #000000;
+  padding: 1.4rem 2rem 1.6rem;
+}
+
+/* Overview pill */
+.results-overview-card {
+  text-align: center;
+}
+
+.results-overview-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.results-overview-card p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Section headers inside cards */
+.results-card-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.results-card-header p {
+  margin: 0.35rem 0 1rem;
+  font-size: 0.85rem;
+  text-align: center;
+  color: #4b5563;
+}
+
+/* Map */
+.results-map-inner {
+  margin-top: 0.25rem;
+}
+
+.results-map-container {
+  width: 100%;
+  height: 260px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+
+.results-map-note,
+.results-map-footnote {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #4b5563;
+}
+
+/* Housing options */
+.results-housing-section .results-card-header {
+  margin-bottom: 0.2rem;
+}
+
+.results-housing-row {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 0.2rem;
+}
+
+/* Individual housing chip */
+.results-housing-chip {
+  min-width: 190px;
+  max-width: 210px;
+  padding: 0.6rem 0.9rem;
+  border-radius: 16px;
+  border: 1px solid rgba(15, 23, 42, 0.6);
+  background: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  flex-shrink: 0;
+  transition: transform 0.12s ease, box-shadow 0.12s ease,
+    border-color 0.12s ease;
+}
+
+.results-housing-chip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.18);
+  border-color: #000000;
+}
+
+.results-housing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.results-housing-price {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.results-housing-type {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6b7280;
+}
+
+.results-housing-address {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+}
+
+.results-housing-meta {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.results-housing-link-cta {
+  margin-top: 0.35rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.results-housing-more {
+  align-self: center;
+  min-width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1.5px solid #000000;
+  background: #ffffff;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* Moving options */
+.results-moving-row {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.results-moving-chip {
+  min-width: 180px;
+  padding: 0.7rem 0.9rem;
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.7);
+  background: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.results-moving-price {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.results-moving-name {
+  margin-top: 0.15rem;
+  font-size: 0.85rem;
+}
+
+.results-moving-meta {
+  margin-top: 0.15rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+/* Transport / rental chips */
+.results-transport-section .results-card-header {
+  margin-bottom: 0.3rem;
+}
+
+.results-rental-row {
+  margin-top: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  justify-content: center;
+}
+
+.results-rental-chip {
+  min-width: 110px;
+  padding: 0.6rem 0.8rem;
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.9);
+  background: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results-rental-price {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.results-rental-label {
+  margin-top: 0.15rem;
+  font-size: 0.8rem;
+}
+
+/* Small “Add to total” buttons */
+.results-mini-btn {
+  margin-top: 0.4rem;
+  align-self: stretch;
+  border-radius: 999px;
+  border: 1.5px solid #000000;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  background: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Grand total section */
+.results-grand {
+  margin-top: 2.4rem;
+  text-align: center;
+}
+
+.results-grand-title {
+  font-size: 1rem;
+  margin-bottom: 0.9rem;
+}
+
+.results-grand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+
+.results-grand-pill {
+  border-radius: 999px;
+  border: 2px solid #000000;
+  padding: 0.75rem 1.4rem;
+  background: #ffffff;
+  box-shadow: 7px 7px 0 #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.results-grand-label {
+  font-size: 0.9rem;
+}
+
+.results-grand-amount {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.results-grand-summary {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.35rem;
+  align-items: baseline;
+}
+
+.results-grand-summary-amount {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Bottom buttons */
+.results-actions {
+  margin-top: 1.4rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.results-save-btn {
+  border-radius: 999px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .results-main {
+    padding: 0 1.25rem 2.5rem;
     margin-top: 1.8rem;
-    margin-bottom: 2rem;
-    padding: 1.4rem 1.6rem 1.6rem;
-    border-radius: 1.5rem;
-    border: 1px solid rgba(148, 163, 184, 0.5);
-    background: rgba(15, 23, 42, 0.9);
   }
-  
-  .results-map-header h3 {
-    margin: 0;
-    font-size: 1rem;
-    font-weight: 600;
+
+  .results-card {
+    padding: 1.1rem 1.4rem 1.3rem;
+    box-shadow: 8px 8px 0 #000000;
   }
-  
-  .results-map-header p {
-    margin-top: 0.3rem;
-    font-size: 0.85rem;
-    color: #9ca3af;
+
+  .results-topbar-inner {
+    flex-direction: column;
   }
-  
-  .results-map-inner {
-    margin-top: 0.9rem;
-    border-radius: 1.2rem;
-    overflow: hidden;
+
+  .results-topbar-text {
+    text-align: left;
   }
-  
-  .results-map-container {
-    width: 100%;
-    height: 320px;
-  }
-  
-  .results-map-note {
-    margin-top: 0.6rem;
-    font-size: 0.8rem;
-    color: #9ca3af;
-  }
-  
+}

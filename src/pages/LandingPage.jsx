@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import "./LandingPage.css";
 import citiesCsv from "../assets/csv/cities.csv?raw";
 
-function LandingPage({ onStart, formData, onChange }) {
+function LandingPage({ onStart, onUpload, formData, onChange }) {
   const [cities, setCities] = useState([]);
   const [error, setError] = useState("");
 
@@ -96,8 +96,8 @@ function LandingPage({ onStart, formData, onChange }) {
       <section className="landing-hero">
         <div className="landing-hero-overlay">
           <h1 className="landing-hero-title">
-            <p1 className ="landing-hero-title-left">You land the j*b,</p1>
-            <p1>we'll do the rest</p1>
+            <p1 className="landing-hero-title-left">You land the j*b,</p1>
+            <p1>we&apos;ll do the rest</p1>
           </h1>
 
           <button className="landing-hero-pill">So, WhatsTheMoove?</button>
@@ -159,7 +159,10 @@ function LandingPage({ onStart, formData, onChange }) {
 
         {error && <p className="landing-error">{error}</p>}
 
-        <button className="landing-upload-pill">
+        <button
+          className="landing-upload-pill"
+          onClick={() => onUpload && onUpload()}
+        >
           Already have a job application?{" "}
           <span className="landing-upload-strong">
             Upload it to refine your results

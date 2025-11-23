@@ -5,6 +5,7 @@ import "./App.css";
 import LandingPage from "./pages/LandingPage.jsx";
 import PlannerPage from "./pages/PlannerPage.jsx";
 import ResultsPage from "./pages/ResultsPage.jsx";
+import UploadPage from "./pages/Upload.jsx";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("landing");
@@ -17,9 +18,13 @@ function App() {
     needsHousing: true,
     housingBudget: 1400,
     inUnitLaundry: false,
-    // keep anything else you already had here too
+    // extras that Upload/Results can use:
+    jobUrl: "",
+    jobTitle: "",
+    companyName: "",
+    needsUhaul: undefined,
+    wantsMovingServiceHelp: undefined,
   });
-  
 
   const handleChange = (field, value) => {
     setFormData((prev) => ({ ...prev, [field]: value }));
@@ -29,11 +34,19 @@ function App() {
     <div className="app-root">
       {currentPage === "landing" && (
         <LandingPage
-        onStart={() => setCurrentPage("planner")}
-        formData={formData}
-        onChange={handleChange}
-      />
-      
+          onStart={() => setCurrentPage("planner")}
+          onUpload={() => setCurrentPage("upload")}
+          formData={formData}
+          onChange={handleChange}
+        />
+      )}
+
+      {currentPage === "upload" && (
+        <UploadPage
+          formData={formData}
+          onChange={handleChange}
+          onContinue={() => setCurrentPage("planner")}
+        />
       )}
 
       {currentPage === "planner" && (
